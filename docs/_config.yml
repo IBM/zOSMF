@@ -40,35 +40,35 @@ url_video_zosmf_overview: https://www.youtube.com/watch?v=d4VbwDzbkq8
 
 title_video_zosmf_dataset: Desktop Dataset Search
 url_video_zosmf_dataset: https://www.youtube.com/watch?v=IxIn7GwqNdQ
-img_video_zosmf_dataset: /assets/img/dataset_search.png
+img_video_zosmf_dataset: assets/img/dataset_search.png
 
 title_video_zosmf_import_manager: Import Manager
 url_video_zosmf_import_manager: https://www.youtube.com/watch?v=7jo4gd3SMj0
-img_video_zosmf_import_manager: /assets/img/import_manager.png
+img_video_zosmf_import_manager: assets/img/import_manager.png
 
 title_video_zosmf_workload_management: Workload Management
 url_video_zosmf_workload_management: https://www.youtube.com/watch?v=BoeC9RoCv5w
-img_video_zosmf_workload_management: /assets/img/workload_management.png
+img_video_zosmf_workload_management: assets/img/workload_management.png
 
 title_video_zosmf_zos_operator_consoles: z/OS Operator Consoles
 url_video_zosmf_zos_operator_consoles: https://www.youtube.com/watch?v=V6NaKOa9oZ8
-img_video_zosmf_zos_operator_consoles: /assets/img/zos_operator_consoles.png
+img_video_zosmf_zos_operator_consoles: assets/img/zos_operator_consoles.png
 
 title_video_zosmf_capacity_provisioning: Capacity Provisioning
 url_video_zosmf_capacity_provisioning: https://www.youtube.com/watch?v=vrN_Z0tcd1Q
-img_video_zosmf_capacity_provisioning: /assets/img/capacity_provisioning.png
+img_video_zosmf_capacity_provisioning: assets/img/capacity_provisioning.png
 
 title_video_zosmf_security_configuration_assistant: Security Configuration Assistant
 url_video_zosmf_security_configuration_assistant: https://www.youtube.com/watch?v=jx8lNA95rzE
-img_video_zosmf_security_configuration_assistant: /assets/img/security_configuration_assistant.png
+img_video_zosmf_security_configuration_assistant: assets/img/security_configuration_assistant.png
 
 title_video_zosmf_rest_api_tso: TSO/E Address Space Services
 url_video_zosmf_rest_api_tso: https://www.youtube.com/watch?v=L0E9TpJ8AwA
-img_video_zosmf_rest_api_tso: /assets/img/rest_api.png
+img_video_zosmf_rest_api_tso: assets/img/rest_api.png
 
 title_video_zosmf_rest_api_dataset: Dataset REST Services
 url_video_zosmf_rest_api_dataset:  https://www.youtube.com/watch?v=ZDsxB2DvTuI
-img_video_zosmf_rest_api_dataset: /assets/img/rest_api.png
+img_video_zosmf_rest_api_dataset: assets/img/rest_api.png
 
 gems:
 # Redirect plugin
