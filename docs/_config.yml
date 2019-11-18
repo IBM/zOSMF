@@ -1,1 +1,80 @@
-theme: jekyll-theme-cayman
+title: z/OSMF One Stop Hub
+description: z/OSMF One Stop Hub contains a consolidated set of links to the information and publications for z/OSMF.
+keywords: z, zos, zosmf, mainframe
+theme: jekyll-theme-slate
+auto_ids: true
+
+# Constants
+title_zosmf: IBM z/OS Management Facility
+title_one_stop_hub: ONE STOP HUB
+
+# Titiles and URLs for resources
+url_zosmf_knowledge_center: https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.4.0/com.ibm.zos.v2r4.izu/izu.htm
+url_zosmf_marketplace: https://www.ibm.com/us-en/marketplace/zos-management-facility
+url_zosmf_trial: https://github.com/IBM/IBM-Z-zOS/tree/master/zOSMF
+url_zosmf_sample_code: https://github.com/IBM/IBM-Z-zOS/tree/master/zOSMF
+url_zosmf_configuration_guide: https://www.ibm.com/support/knowledgecenter/SSLTBW_2.4.0/com.ibm.zos.v2r4.izua300/abstract.htm
+url_zosmf_programming_guide: https://www.ibm.com/support/knowledgecenter/SSLTBW_2.4.0/com.ibm.zos.v2r4.izua700/abstract.htm
+url_zosmf_redbook: http://www.redbooks.ibm.com/redbooks/pdfs/sg247851.pdf
+url_zosmf_apars: https://www.ibm.com/support/pages/ibm-zos-management-facility-zosmf
+url_zosmf_community: https://www.ibm.com/community/z/ibmz/os/zos/zosmf/
+url_zosmf_survey: https://www.surveygizmo.com/s3/5044915/z-OS-Management-Facility-2019-Survey
+url_zosmf_slack_channel: https://app.slack.com/client/T1BAJVCTY/CGLJM7W4W
+
+# Titiles and URLs for user references
+title_blog_icbc: Systems Software Solution for ICBC
+url_blog_icbc: https://www.ibm.com/case-studies/industrial-and-commercial-bank-of-china-systems-software-mainframe-z
+customer_icbc: ICBC
+
+title_blog_vicom_infinity: The Latest Customer News About Using z/OSMF REST APIs
+url_blog_vicom_infinity: https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/andrii-vasylchenko1/2018/12/25/the-latest-customer-news-about-using-zosmf-rest-ap
+customer_vicom_infinity: Vicom Infinity
+
+title_blog_cmb: z/OSMF makes IBM Mainframe more open and modern
+url_blog_cmb: https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/andrii-vasylchenko1/2019/02/20/cmb-zosmf-makes-ibm-mainframe-more-open-and-modern
+customer_cmb: CMB
+
+# Titiles and URLs for tutorial videos
+title_video_zosmf_overview: z/OSMF Overview
+url_video_zosmf_overview: https://www.youtube.com/watch?v=d4VbwDzbkq8
+
+title_video_zosmf_dataset: Desktop Dataset Search
+url_video_zosmf_dataset: https://www.youtube.com/watch?v=IxIn7GwqNdQ
+img_video_zosmf_dataset: /assets/img/dataset_search.png
+
+title_video_zosmf_import_manager: Import Manager
+url_video_zosmf_import_manager: https://www.youtube.com/watch?v=7jo4gd3SMj0
+img_video_zosmf_import_manager: /assets/img/import_manager.png
+
+title_video_zosmf_workload_management: Workload Management
+url_video_zosmf_workload_management: https://www.youtube.com/watch?v=BoeC9RoCv5w
+img_video_zosmf_workload_management: /assets/img/workload_management.png
+
+title_video_zosmf_zos_operator_consoles: z/OS Operator Consoles
+url_video_zosmf_zos_operator_consoles: https://www.youtube.com/watch?v=V6NaKOa9oZ8
+img_video_zosmf_zos_operator_consoles: /assets/img/zos_operator_consoles.png
+
+title_video_zosmf_capacity_provisioning: Capacity Provisioning
+url_video_zosmf_capacity_provisioning: https://www.youtube.com/watch?v=vrN_Z0tcd1Q
+img_video_zosmf_capacity_provisioning: /assets/img/capacity_provisioning.png
+
+title_video_zosmf_security_configuration_assistant: Security Configuration Assistant
+url_video_zosmf_security_configuration_assistant: https://www.youtube.com/watch?v=jx8lNA95rzE
+img_video_zosmf_security_configuration_assistant: /assets/img/security_configuration_assistant.png
+
+title_video_zosmf_rest_api_tso: TSO/E Address Space Services
+url_video_zosmf_rest_api_tso: https://www.youtube.com/watch?v=L0E9TpJ8AwA
+img_video_zosmf_rest_api_tso: /assets/img/rest_api.png
+
+title_video_zosmf_rest_api_dataset: Dataset REST Services
+url_video_zosmf_rest_api_dataset:  https://www.youtube.com/watch?v=ZDsxB2DvTuI
+img_video_zosmf_rest_api_dataset: /assets/img/rest_api.png
+
+gems:
+# Redirect plugin
+  - jekyll-redirect-from
+
+# Exclude from processing
+exclude:
+  - dco_signoffs
+  - .gitignore

@@ -1,0 +1,170 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.outer {
+  width: 100%;
+  cursor: default;
+}
+
+.inner {
+  max-width: none;
+  margin: 0 100px;
+}
+
+.text_right {
+  text-align: right;
+}
+
+#project_title {
+  text-shadow:#ffffff4a 0px 0px 10px;
+}
+
+#project_tagline {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.nav-links {
+  padding: 0px 10px;
+  margin: 0 50px;
+  text-align: right;
+}
+
+#menu_link {
+  padding: 10px 20px;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  color:white;
+}
+
+#menu_link:hover {
+  cursor: pointer;
+  background-color:rgba(0, 0, 0, 0.3);
+}
+
+.greybackground {
+  background-color: #eeeeee;
+}
+
+.whitebackground {
+  background-color: white;
+}
+
+.bluebackground {
+  background-color: #145391;
+}
+
+.greybackground h1, .whitebackground h1 {
+  font-family: "Roboto Condensed", sans-serif !important;
+  font-size: 36px;
+  color:#145391;
+}
+
+.bluebackground h1 {
+  font-family: "Roboto Condensed", sans-serif !important;
+  font-size: 36px;
+  color:white;
+}
+
+.greybackground p, .whitebackground p {
+  font-weight: 300;
+  color: rgb(51, 51, 51);
+}
+
+.bluebackground p {
+  font-weight: 300;
+  color:white;
+}
+
+.whitebackground button {
+  padding: 12px;
+  margin: 6px 0;
+  border: 3px solid #145391;
+  background-color: white;
+  color: #145391;
+}
+
+.bluebackground button {
+  padding: 12px;
+  margin: 6px 0;
+  border: 3px solid white;
+  background-color: #145391;
+  color: white;
+}
+
+.whitebackground button a, .bluebackground button a {
+  text-decoration: none;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: inherit;
+}
+
+.whitebackground button:hover {
+  cursor: pointer;
+  background-color: #145391;
+  color: white;
+}
+
+.bluebackground button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #145391;
+}
+
+table, tr, th {
+  border: 0;
+  background: none;
+  font-family: inherit;
+}
+
+th {
+  padding: 0 50px;
+  width: 50%;
+}
+
+img {
+  padding: 0;
+  margin: 0;
+  width: 100px;
+  height: 100px;
+  border: none;
+  box-shadow: none;
+}
+
+li {
+  margin-left: 15px;
+}
+
+.bluebackground li {
+  color: white;
+}
+
+.div_space {
+  display: inline-flex;
+  width: 50px;
+}
+
+.div_img div {
+  display: inline-table;
+  width: 220px;
+  text-align: center;
+}
+
+.div_img p {
+  font-weight: bold;
+  color: #145391;
+}
+
+.div_blog button {
+  width: 200px;
+}
+
+.div_blog a {
+  font-weight: bold;
+  color:white;
+}

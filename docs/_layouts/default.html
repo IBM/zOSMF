@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-US" class="no-js no-svg">
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, maximum-scale=2">
+    
+    <link rel="shortcut icon" href="/assets/favicon.ico"/>
+    <title>{{ site.title | escape }}</title>
+    <meta name="description" content="{{ site.description }}">
+    <meta name="keywords" content="{{ site.keywords }}">
+    
+    <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css' | relative_url }}">
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <h1 id="project_title">{{ site.title_zosmf }}</h1>
+          <h2 id="project_tagline">{{ site.title_one_stop_hub }}</h2>
+        </header>
+
+        <div class="nav-links">
+            <a id="menu_link" href="#what">About z/OSMF</a>
+            <a id="menu_link" href="#how">Get Started</a>
+            <a id="menu_link" href="#documentation">Documentation</a>
+            <a id="menu_link" href="#community">Community</a>
+            <a id="menu_link" href="#user-reference">User Reference</a>
+            <a id="menu_link" href="#contact-us">Contact Us</a>
+        </div>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+        {{ content }}
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner text_right">
+        {% if site.github.is_project_page %}
+        <p class="copyright">{{ site.title | default: site.github.repository_name }} maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+        {% endif %}
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    {% if site.google_analytics %}
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        ga('create', '{{ site.google_analytics }}', 'auto');
+        ga('send', 'pageview');
+      </script>
+    {% endif %}
+  </body>
+</html>
