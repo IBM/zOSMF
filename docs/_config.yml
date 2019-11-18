@@ -11,7 +11,7 @@ title_one_stop_hub: ONE STOP HUB
 # Titiles and URLs for resources
 url_zosmf_knowledge_center: https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.4.0/com.ibm.zos.v2r4.izu/izu.htm
 url_zosmf_marketplace: https://www.ibm.com/us-en/marketplace/zos-management-facility
-url_zosmf_trial: https://github.com/IBM/IBM-Z-zOS/tree/master/zOSMF
+url_zosmf_trial: https://www.ibm.com/account/reg/signup?formid=urx-34578
 url_zosmf_sample_code: https://github.com/IBM/IBM-Z-zOS/tree/master/zOSMF
 url_zosmf_configuration_guide: https://www.ibm.com/support/knowledgecenter/SSLTBW_2.4.0/com.ibm.zos.v2r4.izua300/abstract.htm
 url_zosmf_programming_guide: https://www.ibm.com/support/knowledgecenter/SSLTBW_2.4.0/com.ibm.zos.v2r4.izua700/abstract.htm
@@ -22,11 +22,11 @@ url_zosmf_survey: https://www.surveygizmo.com/s3/5044915/z-OS-Management-Facilit
 url_zosmf_slack_channel: https://app.slack.com/client/T1BAJVCTY/CGLJM7W4W
 
 # Titiles and URLs for user references
-title_blog_icbc: Systems Software Solution for ICBC
+title_blog_icbc: z/OSMF helps to build a truly service-oriented host system operation and maintenance platform
 url_blog_icbc: https://www.ibm.com/case-studies/industrial-and-commercial-bank-of-china-systems-software-mainframe-z
 customer_icbc: ICBC
 
-title_blog_vicom_infinity: The Latest Customer News About Using z/OSMF REST APIs
+title_blog_vicom_infinity: The latest customer news about using z/OSMF REST APIs
 url_blog_vicom_infinity: https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/andrii-vasylchenko1/2018/12/25/the-latest-customer-news-about-using-zosmf-rest-ap
 customer_vicom_infinity: Vicom Infinity
 
@@ -46,17 +46,29 @@ title_video_zosmf_import_manager: Import Manager
 url_video_zosmf_import_manager: https://www.youtube.com/watch?v=7jo4gd3SMj0
 img_video_zosmf_import_manager: assets/img/import_manager.png
 
-title_video_zosmf_workload_management: Workload Management
-url_video_zosmf_workload_management: https://www.youtube.com/watch?v=BoeC9RoCv5w
-img_video_zosmf_workload_management: assets/img/workload_management.png
+title_video_zosmf_workflows: Workflows
+url_video_zosmf_workflows: https://www.youtube.com/watch?v=KLKi7bhKBlE
+img_video_zosmf_workflows: assets/img/workflows.png
+
+title_video_zosmf_capacity_provisioning: Capacity Provisioning
+url_video_zosmf_capacity_provisioning: https://www.youtube.com/watch?v=vrN_Z0tcd1Q
+img_video_zosmf_capacity_provisioning: assets/img/capacity_provisioning.png
 
 title_video_zosmf_zos_operator_consoles: z/OS Operator Consoles
 url_video_zosmf_zos_operator_consoles: https://www.youtube.com/watch?v=V6NaKOa9oZ8
 img_video_zosmf_zos_operator_consoles: assets/img/zos_operator_consoles.png
 
-title_video_zosmf_capacity_provisioning: Capacity Provisioning
-url_video_zosmf_capacity_provisioning: https://www.youtube.com/watch?v=vrN_Z0tcd1Q
-img_video_zosmf_capacity_provisioning: assets/img/capacity_provisioning.png
+title_video_zosmf_workload_management: Workload Management
+url_video_zosmf_workload_management: https://www.youtube.com/watch?v=BoeC9RoCv5w
+img_video_zosmf_workload_management: assets/img/workload_management.png
+
+title_video_zosmf_incident_log: Incident Log
+url_video_zosmf_incident_log: https://www.youtube.com/watch?v=NG6LbHPC8hc
+img_video_zosmf_incident_log: assets/img/incident_log.png
+
+title_video_zosmf_sysplex_management: Sysplex Management
+url_video_zosmf_sysplex_management: https://www.youtube.com/watch?v=aLT76nM5jqU
+img_video_zosmf_sysplex_management: assets/img/sysplex_management.png
 
 title_video_zosmf_security_configuration_assistant: Security Configuration Assistant
 url_video_zosmf_security_configuration_assistant: https://www.youtube.com/watch?v=jx8lNA95rzE

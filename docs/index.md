@@ -6,7 +6,6 @@ layout: default
   <section id="main_content" class="inner">
     <h1>News</h1>
     <p><strong>z/OSMF V2R4 is now availiable. <a href="{{ site.url_zosmf_knowledge_center }}" target="_blank">Learn More</a></strong></p>
-    <p><strong>z/OSMF 2019 Survey is now availiable. <a href="{{ site.url_zosmf_survey }}" target="_blank">Learn More</a></strong></p>
   </section>
 </div>
 
@@ -14,11 +13,11 @@ layout: default
   <section id="main_content" class="inner">
     <h1 id="what">About z/OSMF</h1>
     <p>IBM z/OS Management Facility (z/OSMF) provides a framework for managing various aspects of a z/OS system through a task oriented, Web browser interface. By streamlining some traditional tasks and automating others, z/OSMF can help to simplify some areas of system management and reduce the level of expertise needed for managing a system.</p>
-    <li><p>Learn more about z/OSMF:</p></li>
+    <p><li>Learn more about z/OSMF:</li></p>
     <button><a href="{{ site.url_zosmf_knowledge_center }}" target="_blank">z/OSMF Knowledge Center</a></button>
     <div class="div_space"></div>
     <button><a href="{{ site.url_video_zosmf_overview }}" target="_blank">{{ site.title_video_zosmf_overview }}</a></button>
-    <li><p>Explore spotlights and key features of z/OSMF:</p></li>
+    <p><li>Explore spotlights and key features of z/OSMF:</li></p>
     <button><a href="{{ site.url_zosmf_marketplace }}" target="_blank">z/OSMF Marketplace</a></button>
   </section>
 </div>
@@ -29,7 +28,7 @@ layout: default
     <p>IBM Z Software Trials (zTrial) provides a no-charge trial for z/OSMF without installation required:</p>
     <button><a href="{{ site.url_zosmf_trial }}" target="_blank">z/OSMF Trial</a></button>
     <p>You can also go to the GitHub repository to download the demonstration of z/OSMF functions:</p>
-    <button><a href="{{ site.url_zosmf_sample_code }}" target="_blank">z/OSMF Sample Code</a></button>
+    <button><a href="{{ site.url_zosmf_sample_code }}" target="_blank">z/OSMF GitHub</a></button>
     <p>Here are a series of tutorial videos for z/OSMF plugins:</p>
     <div class="div_img">
       <div>
@@ -41,16 +40,28 @@ layout: default
         <p><a href="{{ site.url_video_zosmf_import_manager }}" target="_blank">{{ site.title_video_zosmf_import_manager }}</a></p>
       </div>
       <div>
-        <p><a href="{{ site.url_video_zosmf_workload_management }}" target="_blank"><img src="{{ site.img_video_zosmf_workload_management }}"/></a></p>
-        <p><a href="{{ site.url_video_zosmf_workload_management }}" target="_blank">{{ site.title_video_zosmf_workload_management }}</a></p>
+        <p><a href="{{ site.url_video_zosmf_workflows }}" target="_blank"><img src="{{ site.img_video_zosmf_workflows }}"/></a></p>
+        <p><a href="{{ site.url_video_zosmf_workflows }}" target="_blank">{{ site.title_video_zosmf_workflows }}</a></p>
+      </div>
+      <div>
+        <p><a href="{{ site.url_video_zosmf_capacity_provisioning }}" target="_blank"><img src="{{ site.img_video_zosmf_capacity_provisioning }}"/></a></p>
+        <p><a href="{{ site.url_video_zosmf_capacity_provisioning }}" target="_blank">{{ site.title_video_zosmf_capacity_provisioning }}</a></p>
       </div>
       <div>
         <p><a href="{{ site.url_video_zosmf_zos_operator_consoles }}" target="_blank"><img src="{{ site.img_video_zosmf_zos_operator_consoles }}"/></a></p>
         <p><a href="{{ site.url_video_zosmf_zos_operator_consoles }}" target="_blank">{{ site.title_video_zosmf_zos_operator_consoles }}</a></p>
       </div>
       <div>
-        <p><a href="{{ site.url_video_zosmf_capacity_provisioning }}" target="_blank"><img src="{{ site.img_video_zosmf_capacity_provisioning }}"/></a></p>
-        <p><a href="{{ site.url_video_zosmf_capacity_provisioning }}" target="_blank">{{ site.title_video_zosmf_capacity_provisioning }}</a></p>
+        <p><a href="{{ site.url_video_zosmf_workload_management }}" target="_blank"><img src="{{ site.img_video_zosmf_workload_management }}"/></a></p>
+        <p><a href="{{ site.url_video_zosmf_workload_management }}" target="_blank">{{ site.title_video_zosmf_workload_management }}</a></p>
+      </div>
+      <div>
+        <p><a href="{{ site.url_video_zosmf_incident_log }}" target="_blank"><img src="{{ site.img_video_zosmf_incident_log }}"/></a></p>
+        <p><a href="{{ site.url_video_zosmf_incident_log }}" target="_blank">{{ site.title_video_zosmf_incident_log }}</a></p>
+      </div>
+      <div>
+        <p><a href="{{ site.url_video_zosmf_sysplex_management }}" target="_blank"><img src="{{ site.img_video_zosmf_sysplex_management }}"/></a></p>
+        <p><a href="{{ site.url_video_zosmf_sysplex_management }}" target="_blank">{{ site.title_video_zosmf_sysplex_management }}</a></p>
       </div>
       <div>
         <p><a href="{{ site.url_video_zosmf_security_configuration_assistant }}" target="_blank"><img src="{{ site.img_video_zosmf_security_configuration_assistant }}"/></a></p>
@@ -117,7 +128,9 @@ layout: default
 <div class="whitebackground">
   <section id="main_content" class="inner">
     <h1 id="contact-us">Contact Us</h1>
-    <table>
+    <p>The <em>zosmf-adoption</em> Channel on Slack is provided for open discussion on configuration, adoption, marketing, and events for z/OSMF product.</p>
+    <button><a href="{{ site.url_zosmf_slack_channel }}" target="_blank">Slack Channel</a></button>
+    <!-- <table>
       <tr>
         <th>
           <p>We would like to understand your current experience with z/OSMF. Your feedback will help us improve z/OSMF.</p>
@@ -134,6 +147,6 @@ layout: default
           <button><a href="{{ site.url_zosmf_slack_channel }}" target="_blank">Slack Channel</a></button>
         </th>
       </tr>
-    </table>
+    </table> -->
   </section>
 </div>
