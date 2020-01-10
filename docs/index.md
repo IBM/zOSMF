@@ -29,7 +29,7 @@ layout: default
     <button><a href="{{ site.url_zosmf_trial }}" target="_blank">z/OSMF Trial</a></button>
     <p>You can also go to the GitHub repository to download the demonstration of z/OSMF functions:</p>
     <button><a href="{{ site.url_zosmf_sample_code }}" target="_blank">z/OSMF GitHub</a></button>
-    <p>Here are a series of tutorial videos for z/OSMF plugins:</p>
+    <p>Here are a series of tutorial videos and online courses for z/OSMF plugins:</p>
     <div class="div_img">
       <div>
         <p><a href="{{ site.url_video_zosmf_dataset }}" target="_blank"><img src="{{ site.img_video_zosmf_dataset }}"/></a></p>
@@ -66,6 +66,10 @@ layout: default
       <div>
         <p><a href="{{ site.url_video_zosmf_security_configuration_assistant }}" target="_blank"><img src="{{ site.img_video_zosmf_security_configuration_assistant }}"/></a></p>
         <p><a href="{{ site.url_video_zosmf_security_configuration_assistant }}" target="_blank">{{ site.title_video_zosmf_security_configuration_assistant }}</a></p>
+      </div>
+      <div>
+        <p><a href="{{ site.url_video_zosmf_network_configuration_assistant }}" target="_blank"><img src="{{ site.img_video_zosmf_network_configuration_assistant }}"/></a></p>
+        <p><a href="{{ site.url_video_zosmf_network_configuration_assistant }}" target="_blank">{{ site.title_video_zosmf_network_configuration_assistant }}</a></p>
       </div>
       <div>
         <p><a href="{{ site.url_video_zosmf_rest_api_tso }}" target="_blank"><img src="{{ site.img_video_zosmf_rest_api_tso }}"/></a></p>
