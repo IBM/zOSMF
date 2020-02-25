@@ -3,6 +3,7 @@ description: z/OSMF One Stop Hub contains a consolidated set of links to the inf
 keywords: z, zos, zosmf, mainframe
 theme: jekyll-theme-slate
 auto_ids: true
+repository: ibm/ibm.github.io
 
 # Constants
 title_zosmf: IBM z/OS Management Facility
@@ -20,6 +21,10 @@ url_zosmf_apars: https://www.ibm.com/support/pages/ibm-zos-management-facility-z
 url_zosmf_community: https://www.ibm.com/community/z/ibmz/os/zos/zosmf/
 url_zosmf_survey: https://www.surveygizmo.com/s3/5044915/z-OS-Management-Facility-2019-Survey
 url_zosmf_slack_channel: https://app.slack.com/client/T1BAJVCTY/CGLJM7W4W
+url_zosmf_zorow: https://www.openmainframeproject.org/projects/zorow
+url_zosmf_cpm_content_solution: https://www.ibm.com/support/z-content-solutions/cloud-provisioning
+url_zosmf_cpm_knowledge_center: https://www.ibm.com/support/knowledgecenter/SSLTBW_2.4.0/com.ibm.zos.v2r4.izsc300/abstract.htm
+url_zosmf_cpm_trial: https://www.ibm.com/account/reg/signup?formid=urx-19504
 
 # Titiles and URLs for user references
 title_blog_icbc: z/OSMF helps to build a truly service-oriented host system operation and maintenance platform
@@ -53,6 +58,10 @@ img_video_zosmf_workflows: assets/img/workflows.png
 title_video_zosmf_capacity_provisioning: Capacity Provisioning
 url_video_zosmf_capacity_provisioning: https://www.youtube.com/watch?v=vrN_Z0tcd1Q
 img_video_zosmf_capacity_provisioning: assets/img/capacity_provisioning.png
+
+title_video_zosmf_software_services: Software Services
+url_video_zosmf_software_services: https://www.youtube.com/playlist?list=PLezLS0Tuqb-6b0nVD1OK0_5PZ7MZgW82G
+img_video_zosmf_software_services: assets/img/software_services.png
 
 title_video_zosmf_zos_operator_consoles: z/OS Operator Consoles
 url_video_zosmf_zos_operator_consoles: https://www.youtube.com/watch?v=V6NaKOa9oZ8

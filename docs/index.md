@@ -48,6 +48,10 @@ layout: default
         <p><a href="{{ site.url_video_zosmf_capacity_provisioning }}" target="_blank">{{ site.title_video_zosmf_capacity_provisioning }}</a></p>
       </div>
       <div>
+        <p><a href="{{ site.url_video_zosmf_software_services }}" target="_blank"><img src="{{ site.img_video_zosmf_software_services }}"/></a></p>
+        <p><a href="{{ site.url_video_zosmf_software_services }}" target="_blank">{{ site.title_video_zosmf_software_services }}</a></p>
+      </div>
+      <div>
         <p><a href="{{ site.url_video_zosmf_zos_operator_consoles }}" target="_blank"><img src="{{ site.img_video_zosmf_zos_operator_consoles }}"/></a></p>
         <p><a href="{{ site.url_video_zosmf_zos_operator_consoles }}" target="_blank">{{ site.title_video_zosmf_zos_operator_consoles }}</a></p>
       </div>
@@ -94,6 +98,14 @@ layout: default
     <button><a href="{{ site.url_zosmf_redbook }}" target="_blank">z/OSMF Redbook</a></button>
     <div class="div_space"></div>
     <button><a href="{{ site.url_zosmf_apars }}" target="_blank">z/OSMF New Function APARs</a></button>
+    <p><li>Learn more about z/OSMF Workflows:</li></p>
+    <button><a href="{{ site.url_zosmf_zorow }}" target="_blank">z/OS Open Repository of Workflows</a></button>
+    <p><li>Learn more about IBM Cloud Provisioning and Management for z/OS (CP&M):</li></p>
+    <button><a href="{{ site.url_zosmf_cpm_content_solution }}" target="_blank">CP&M Content Solution</a></button>
+    <div class="div_space"></div>
+    <button><a href="{{ site.url_zosmf_cpm_knowledge_center }}" target="_blank">CP&M Knowledge Center</a></button>
+    <div class="div_space"></div>
+    <button><a href="{{ site.url_zosmf_cpm_trial }}" target="_blank">CP&M Trial</a></button>
   </section>
 </div>
 
