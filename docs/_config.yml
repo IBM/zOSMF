@@ -25,6 +25,8 @@ url_zosmf_zorow: https://www.openmainframeproject.org/projects/zorow
 url_zosmf_cpm_content_solution: https://www.ibm.com/support/z-content-solutions/cloud-provisioning
 url_zosmf_cpm_knowledge_center: https://www.ibm.com/support/knowledgecenter/SSLTBW_2.4.0/com.ibm.zos.v2r4.izsc300/abstract.htm
 url_zosmf_cpm_trial: https://www.ibm.com/account/reg/signup?formid=urx-19504
+url_share_fort_worth: https://events.share.org/Winter2020/Public/SessionDetails.aspx?FromPage=Sessions.aspx&SessionID=10288&SessionDateID=57
+url_zos_v2r4_announcement: https://www-01.ibm.com/common/ssi/ShowDoc.wss?docURL=/common/ssi/rep_ca/0/877/ENUSZP19-0410/index.html&request_locale=en
 
 # Titiles and URLs for user references
 title_blog_icbc: z/OSMF helps to build a truly service-oriented host system operation and maintenance platform

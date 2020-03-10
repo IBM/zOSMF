@@ -5,7 +5,15 @@ layout: default
 <div class="greybackground">
   <section id="main_content" class="inner">
     <h1>News</h1>
-    <p><strong>z/OSMF V2R4 is now availiable. <a href="{{ site.url_zosmf_knowledge_center }}" target="_blank">Learn More</a></strong></p>
+    <p><strong>z/OSMF enhancements in 4Q 2019:</strong></p>
+    <p><li>z/OSMF Security Configuration Assistant is enhanced to support variable substitution and validation by user group with APAR PH17871.</li></p>
+    <p><li>z/OSMF Desktop is enhanced by APAR PH16076 to support searching, browsing and editing USS file and directory from the same place where user can do similar operation with data sets today. User can also submit data set or USS file as JCL and check job output directly from the z/OSMF desktop editor or search window.</li></p>
+    <p><li>z/OSMF Workflows tasks is enhanced to support creating workflow instance from workflow definition located in remote systems by APAR PH14185.</li></p>
+    <p><li>z/OSMF REST data set and file service is enhanced to support accessing data sets and files in remote system by APAR PH15263.</li></p>
+    <p><li>z/OSMF supports JSON Web Token (JWT) by returning JWT token during authentication and accepting JWT token for authorization of z/OSMF services by APAR PH12143.</li></p>
+    <p><li>z/OSMF Sysplex Management plugin is enhanced by PH15554 to allow users to create a new couple data set for several operations like set Primary CDS, switch Alternate CDS to Primary CDS, etc.</li></p>
+    <p><li>z/OSMF startup time is reduced by APAR PH19227 and PH06678.</li></p>
+    <p><strong>z/OSMF V2R4 is now available in Sep 2019. Please refer to <a href="{{ site.url_share_fort_worth }}" target="_blank">the latest handout from SHARE Fort Worth</a> or <a href="{{ site.url_zos_v2r4_announcement }}" target="_blank">z/OS V2R4 Announcement</a>.</strong></p>
   </section>
 </div>
 
