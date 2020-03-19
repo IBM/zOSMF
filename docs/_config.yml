@@ -9,7 +9,7 @@ repository: ibm/ibm.github.io
 title_zosmf: IBM z/OS Management Facility
 title_one_stop_hub: ONE STOP HUB
 
-# Titiles and URLs for resources
+# Titles and URLs for resources
 url_zosmf_knowledge_center: https://www.ibm.com/support/knowledgecenter/en/SSLTBW_2.4.0/com.ibm.zos.v2r4.izu/izu.htm
 url_zosmf_marketplace: https://www.ibm.com/us-en/marketplace/zos-management-facility
 url_zosmf_trial: https://www.ibm.com/account/reg/signup?formid=urx-34578
@@ -28,7 +28,10 @@ url_zosmf_cpm_trial: https://www.ibm.com/account/reg/signup?formid=urx-19504
 url_share_fort_worth: https://events.share.org/Winter2020/Public/SessionDetails.aspx?FromPage=Sessions.aspx&SessionID=10288&SessionDateID=57
 url_zos_v2r4_announcement: https://www-01.ibm.com/common/ssi/ShowDoc.wss?docURL=/common/ssi/rep_ca/0/877/ENUSZP19-0410/index.html&request_locale=en
 
-# Titiles and URLs for user references
+# Titles and URLs for blogs
+url_leveraging_zosmf_ansible: https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/xiao-zhen-zhu1/2020/03/19/leveraging-zosmf-to-integrate-ansible-and-zos
+
+# Titles and URLs for user references
 title_blog_icbc: z/OSMF helps to build a truly service-oriented host system operation and maintenance platform
 url_blog_icbc: https://www.ibm.com/case-studies/industrial-and-commercial-bank-of-china-systems-software-mainframe-z
 customer_icbc: ICBC
@@ -41,7 +44,7 @@ title_blog_cmb: z/OSMF makes IBM Mainframe more open and modern
 url_blog_cmb: https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/andrii-vasylchenko1/2019/02/20/cmb-zosmf-makes-ibm-mainframe-more-open-and-modern
 customer_cmb: CMB
 
-# Titiles and URLs for tutorial videos
+# Titles and URLs for tutorial videos
 title_video_zosmf_overview: z/OSMF Overview
 url_video_zosmf_overview: https://www.youtube.com/watch?v=d4VbwDzbkq8
 

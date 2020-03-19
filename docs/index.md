@@ -5,6 +5,8 @@ layout: default
 <div class="greybackground">
   <section id="main_content" class="inner">
     <h1>News</h1>
+    <p><strong>z/OSMF Ansible collection is now available on Ansible Galaxy:</strong></p>
+    <p>z/OSMF Ansible collection helps you to integrate Ansible and z/OS without any environment change to z/OS. Please refer to our <a href="{{ site.url_leveraging_zosmf_ansible }}" target="_blank">latest blog</a> for details.</p>
     <p><strong>z/OSMF enhancements in 4Q 2019:</strong></p>
     <p><li>z/OSMF Security Configuration Assistant is enhanced to support variable substitution and validation by user group with APAR PH17871.</li></p>
     <p><li>z/OSMF Desktop is enhanced by APAR PH16076 to support searching, browsing and editing USS file and directory from the same place where user can do similar operation with data sets today. User can also submit data set or USS file as JCL and check job output directly from the z/OSMF desktop editor or search window.</li></p>
