@@ -57,6 +57,18 @@
     <div id="main_content_wrap" class="outer">
         {{ content }}
     </div>
+    <script>
+      $("a.show-previous-news").click(function () {
+        $("a.show-previous-news").hide();
+        $("div.previous-news").show();
+        return false;
+      });
+      $("a.hide-previous-news").click(function () {
+        $("a.show-previous-news").show();
+        $("div.previous-news").hide();
+        return false;
+      });
+    </script>
 
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">

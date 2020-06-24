@@ -27,6 +27,8 @@ url_zosmf_cpm_knowledge_center: https://www.ibm.com/support/knowledgecenter/SSLT
 url_zosmf_cpm_trial: https://www.ibm.com/account/reg/signup?formid=urx-19504
 url_share_fort_worth: https://events.share.org/Winter2020/Public/SessionDetails.aspx?FromPage=Sessions.aspx&SessionID=10288&SessionDateID=57
 url_zos_v2r4_announcement: https://www-01.ibm.com/common/ssi/ShowDoc.wss?docURL=/common/ssi/rep_ca/0/877/ENUSZP19-0410/index.html&request_locale=en
+url_zosmf_ansible_galaxy: https://galaxy.ansible.com/ibm/ibm_zos_zosmf
+url_cics_content_solution: https://www.ibm.com/support/z-content-solutions/serverpac-install-zosmf/ 
 
 # Titles and URLs for blogs
 url_leveraging_zosmf_ansible: https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/xiao-zhen-zhu1/2020/03/19/leveraging-zosmf-to-integrate-ansible-and-zos
@@ -51,6 +53,10 @@ url_video_zosmf_overview: https://www.youtube.com/watch?v=d4VbwDzbkq8
 title_video_zosmf_dataset: Desktop Dataset Search
 url_video_zosmf_dataset: https://www.youtube.com/watch?v=IxIn7GwqNdQ
 img_video_zosmf_dataset: assets/img/dataset_search.png
+
+title_video_zosmf_dataset_ussfile: Desktop Dataset and USS File Search
+url_video_zosmf_dataset_ussfile: https://mediacenter.ibm.com/media/t/1_qmzvt1qu
+img_video_zosmf_dataset_ussfile: assets/img/dataset_search.png
 
 title_video_zosmf_import_manager: Import Manager
 url_video_zosmf_import_manager: https://www.youtube.com/watch?v=7jo4gd3SMj0
