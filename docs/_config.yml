@@ -32,6 +32,7 @@ url_cics_content_solution: https://www.ibm.com/support/z-content-solutions/serve
 
 # Titles and URLs for blogs
 url_leveraging_zosmf_ansible: https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/xiao-zhen-zhu1/2020/03/19/leveraging-zosmf-to-integrate-ansible-and-zos
+url_tailor_zosmf_server: https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/zhi-li1/2020/08/10/tailor-your-zosmf-server-for-better-performance-in
 
 # Titles and URLs for user references
 title_blog_icbc: z/OSMF helps to build a truly service-oriented host system operation and maintenance platform
