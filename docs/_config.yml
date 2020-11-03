@@ -29,10 +29,13 @@ url_share_fort_worth: https://events.share.org/Winter2020/Public/SessionDetails.
 url_zos_v2r4_announcement: https://www-01.ibm.com/common/ssi/ShowDoc.wss?docURL=/common/ssi/rep_ca/0/877/ENUSZP19-0410/index.html&request_locale=en
 url_zosmf_ansible_galaxy: https://galaxy.ansible.com/ibm/ibm_zos_zosmf
 url_cics_content_solution: https://www.ibm.com/support/z-content-solutions/serverpac-install-zosmf/ 
+url_zosmf_ansible_github_usecase: https://github.com/IBM/ibm_zos_zosmf/tree/master/playbooks/use_cases/
 
 # Titles and URLs for blogs
 url_leveraging_zosmf_ansible: https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/xiao-zhen-zhu1/2020/03/19/leveraging-zosmf-to-integrate-ansible-and-zos
 url_tailor_zosmf_server: https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/zhi-li1/2020/08/10/tailor-your-zosmf-server-for-better-performance-in
+url_zosmf_startup_improvement: https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/jing-hua-jiang1/2020/10/30/make-your-zosmf-server-starts-significantly-faster
+url_zosmf_client_certificate: https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/yan-hui-wang1/2020/09/21/how-to-access-zosmf-with-client-certificate
 
 # Titles and URLs for user references
 title_blog_icbc: z/OSMF helps to build a truly service-oriented host system operation and maintenance platform
