@@ -102,6 +102,10 @@ title_video_zosmf_network_configuration_assistant: Network Configuration Assista
 url_video_zosmf_network_configuration_assistant: http://ibm.biz/NCATCPIPcourse
 img_video_zosmf_network_configuration_assistant: assets/img/configuration_assistant.png
 
+title_video_zosmf_zert_network_analyzer: IBM zERT Network Analyzer
+url_video_zosmf_zert_network_analyzer: https://commserver-ens.github.io/zNA_interactive_demo/
+img_video_zosmf_zert_network_analyzer: assets/img/zert_network_analyzer.png
+
 title_video_zosmf_rest_api_tso: TSO/E Address Space Services
 url_video_zosmf_rest_api_tso: https://www.youtube.com/watch?v=L0E9TpJ8AwA
 img_video_zosmf_rest_api_tso: assets/img/rest_api.png

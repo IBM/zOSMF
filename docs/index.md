@@ -113,6 +113,10 @@ layout: default
         <p><a href="{{ site.url_video_zosmf_network_configuration_assistant }}" target="_blank">{{ site.title_video_zosmf_network_configuration_assistant }}</a></p>
       </div>
       <div>
+        <p><a href="{{ site.url_video_zosmf_zert_network_analyzer }}" target="_blank"><img src="{{ site.img_video_zosmf_zert_network_analyzer }}"/></a></p>
+        <p><a href="{{ site.url_video_zosmf_zert_network_analyzer }}" target="_blank">{{ site.title_video_zosmf_zert_network_analyzer }}</a></p>
+      </div>
+      <div>
         <p><a href="{{ site.url_video_zosmf_rest_api_tso }}" target="_blank"><img src="{{ site.img_video_zosmf_rest_api_tso }}"/></a></p>
         <p><a href="{{ site.url_video_zosmf_rest_api_tso }}" target="_blank">{{ site.title_video_zosmf_rest_api_tso }}</a></p>
       </div>
