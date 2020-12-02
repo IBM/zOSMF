@@ -52,26 +52,22 @@ customer_cmb: CMB
 
 # Titles and URLs for tutorial videos
 title_video_zosmf_overview: z/OSMF Overview
-url_video_zosmf_overview: https://www.youtube.com/watch?v=d4VbwDzbkq8
-
-title_video_zosmf_dataset: Desktop Dataset Search
-url_video_zosmf_dataset: https://www.youtube.com/watch?v=IxIn7GwqNdQ
-img_video_zosmf_dataset: assets/img/dataset_search.png
+url_video_zosmf_overview: https://mediacenter.ibm.com/media/z+OSMF+Overview/1_wb6devai/101043781
 
 title_video_zosmf_dataset_ussfile: Desktop Dataset and USS File Search
 url_video_zosmf_dataset_ussfile: https://mediacenter.ibm.com/media/t/1_qmzvt1qu
 img_video_zosmf_dataset_ussfile: assets/img/dataset_search.png
 
 title_video_zosmf_import_manager: Import Manager
-url_video_zosmf_import_manager: https://www.youtube.com/watch?v=7jo4gd3SMj0
+url_video_zosmf_import_manager: https://mediacenter.ibm.com/media/z+OSMF+Video+Import+Manager/1_jxi6dusd/101043781
 img_video_zosmf_import_manager: assets/img/import_manager.png
 
 title_video_zosmf_workflows: Workflows
-url_video_zosmf_workflows: https://www.youtube.com/watch?v=KLKi7bhKBlE
+url_video_zosmf_workflows: https://mediacenter.ibm.com/media/z+OSMF+Workflows+Tutorial+-+Discover+z+OS+Features+%26+Manipulate+Data+Set/1_x4v2n1bq/101043781
 img_video_zosmf_workflows: assets/img/workflows.png
 
 title_video_zosmf_capacity_provisioning: Capacity Provisioning
-url_video_zosmf_capacity_provisioning: https://www.youtube.com/watch?v=vrN_Z0tcd1Q
+url_video_zosmf_capacity_provisioning: https://mediacenter.ibm.com/media/z+OSMF+Capacity+Provisioning+Tutorial/1_fudijgmt/101043781
 img_video_zosmf_capacity_provisioning: assets/img/capacity_provisioning.png
 
 title_video_zosmf_software_services: Software Services
@@ -79,19 +75,19 @@ url_video_zosmf_software_services: https://www.youtube.com/playlist?list=PLezLS0
 img_video_zosmf_software_services: assets/img/software_services.png
 
 title_video_zosmf_zos_operator_consoles: z/OS Operator Consoles
-url_video_zosmf_zos_operator_consoles: https://www.youtube.com/watch?v=V6NaKOa9oZ8
+url_video_zosmf_zos_operator_consoles: https://mediacenter.ibm.com/media/z+OSMF+Operator+Console+Tutorial/1_5qcip6d3/101043781
 img_video_zosmf_zos_operator_consoles: assets/img/zos_operator_consoles.png
 
 title_video_zosmf_workload_management: Workload Management
-url_video_zosmf_workload_management: https://www.youtube.com/watch?v=BoeC9RoCv5w
+url_video_zosmf_workload_management: https://mediacenter.ibm.com/media/z+OSMF+WLM+Tutorial/1_owwa9j55/101043781
 img_video_zosmf_workload_management: assets/img/workload_management.png
 
 title_video_zosmf_incident_log: Incident Log
-url_video_zosmf_incident_log: https://www.youtube.com/watch?v=NG6LbHPC8hc
+url_video_zosmf_incident_log: https://mediacenter.ibm.com/media/z+OSMF+Incident+Log+Tutorial+-+Collect+diagnostic+data+and+send+to+IBM/1_huo1fejj/101043781
 img_video_zosmf_incident_log: assets/img/incident_log.png
 
 title_video_zosmf_sysplex_management: Sysplex Management
-url_video_zosmf_sysplex_management: https://www.youtube.com/watch?v=aLT76nM5jqU
+url_video_zosmf_sysplex_management: https://mediacenter.ibm.com/media/Sysplex+Management+Overview/1_g5snla1t/101043781
 img_video_zosmf_sysplex_management: assets/img/sysplex_management.png
 
 title_video_zosmf_security_configuration_assistant: Security Configuration Assistant
@@ -107,7 +103,7 @@ url_video_zosmf_zert_network_analyzer: https://commserver-ens.github.io/zNA_inte
 img_video_zosmf_zert_network_analyzer: assets/img/zert_network_analyzer.png
 
 title_video_zosmf_rest_api_tso: TSO/E Address Space Services
-url_video_zosmf_rest_api_tso: https://www.youtube.com/watch?v=L0E9TpJ8AwA
+url_video_zosmf_rest_api_tso: https://mediacenter.ibm.com/media/TSO+API/1_9lloubj0/101043781
 img_video_zosmf_rest_api_tso: assets/img/rest_api.png
 
 title_video_zosmf_rest_api_dataset: Dataset REST Services
