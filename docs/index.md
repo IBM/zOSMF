@@ -5,15 +5,23 @@ layout: default
 <div class="greybackground">
   <section id="main_content" class="inner">
     <h1>News</h1>
-    <p><strong>Check out our sample Ansible playbooks for automating 3 different z/OS use cases <a href="{{ site.url_zosmf_ansible_github_usecase }}" target="_blank">here</a>!</strong></p>
+    <p><strong>Check out our sample Ansible playbooks for automating 3 different z/OS use cases at <a href="{{ site.url_zosmf_ansible_github_usecase }}" target="_blank">here</a>!</strong></p>
+    <p><strong>z/OSMF enhancements in 4Q 2020:</strong></p>
+    <p><li>z/OSMF Ansible collection is enhanced to support MVS operator commands as well as fetching sequential data set or PDS/E data set member.</li></p>
+    <p><li>z/OSMF Desktop is enhanced by PH28692 to support typeahead search. PH30398 also enhances z/OSMF Desktop to support creating data set. Clients can create a new physical sequential or partitioned data set based on an existing data set, a predefined template, or fully specified attributes.</li></p>
+    <p><li>z/OSMF REST data set and file API is enhanced by APAR PH29745 to queue concurrent requests from the same user when the number of TSO address spaces are exhausted. A tuning guide for REST data set and file API is also published at <a href="{{ site.url_zosmf_dataset_api_tuning_guide }}" target="_blank">here</a>.</li></p>
+    <p><li>z/OS Operator Consoles plugin is enhanced by PH30881 to support side view for WTOR/Hold messages.</li></p>
+    <p><li>z/OSMF is enhanced by PH30398 to support 15 minutes as the minimum expiration time of z/OSMF user session.</li></p>
+    <p><li>z/OSMF Diagnostic Assistant is enhanced with PH25691 to support the display of z/OSMF data file system utilization on the z/OSMF desktop taskbar. It  also supports automatic cleanup of z/OSMF diagnostic data based on a predefined policy.</li></p>
+    <p><li>z/OSMF Workflow Engine has several enhancements with the PTF for APAR PH28532. The workflow administrator can delete multiple workflow instances at a time. To perform a workflow on a remote sysplex, a single sign-on among z/OSMF instances is no longer strictly required. In the absence of a single sign-on, the request prompts for a user and password, if necessary. The "create new workflow instance" dialog now exploits the typeahead search for the workflow definition and workflow properties files. This can eliminate the need to provide the full data set name or path name.</li></p>
+    <p><li>z/OSMF startup time and resource consumption during startup is improved with the PTFs for APARs PH28921, PH28920, PH28971, PH28990, PH28451, PH29230, PH29243, PH28832, and PH28872. Actual results can vary, depending on the client's configuration.</li></p>
     <p><strong>z/OSMF startup improvement is now available:</strong></p>
     <p><li>With the new PTFs we delivered for startup improvement, in lab measurements of a small z15 lpar, the startup time improved about 50%. Please refer to our <a href="{{ site.url_zosmf_startup_improvement }}" target="_blank">latest blog</a> for details.</li></p>
-    <p><strong>Access z/OSMF with client certificate is now available:</strong></p>
-    <p><li>If you would like to use client certificate to access z/OSMF, please refer to our <a href="{{ site.url_zosmf_client_certificate }}" target="_blank">latest blog</a> for details.</li></p>
-    <p><strong>z/OSMF Lite Stage 2 is now available:</strong></p>
-    <p><li>z/OSMF Lite provides the flexibility to tailor z/OSMF runtime for better performance in a few clicks. With z/OSMF Lite, you can improve up to 50% startup performance. Please refer to our <a href="{{ site.url_tailor_zosmf_server }}" target="_blank">latest blog</a> for details.</li></p>
+    <p><strong>Check out <a href="{{ site.url_zosmf_client_certificate }}" target="_blank">this blog</a> about how to access z/OSMF with client certificate.</strong></p>
     <a href="#" class="show-previous-news">Show previous news...</a>
     <div class="previous-news" style="display: none">
+      <p><strong>z/OSMF Lite Stage 2 is now available:</strong></p>
+      <p><li>z/OSMF Lite provides the flexibility to tailor z/OSMF runtime for better performance in a few clicks. With z/OSMF Lite, you can improve up to 50% startup performance. Please refer to our <a href="{{ site.url_tailor_zosmf_server }}" target="_blank">latest blog</a> for details.</li></p>
       <p><strong>z/OSMF enhancements in 2Q 2020:</strong></p>
       <p><li>z/OSMF REST Jobs API is enhanced by APAR PH23046 to support search option and codepage conversion for spool outputs. Additional option is also introduced to return active jobs only and additional data like submit time.</li></p>
       <p><li>z/OSMF REST data set and file API is enhanced by APAR PH22030 to support "Allocate Like". Response time is also improved for retrieving content from large data set or USS file by supporting "Accept-Encoding: gzip" header.</li></p>

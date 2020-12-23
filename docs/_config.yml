@@ -30,6 +30,7 @@ url_zos_v2r4_announcement: https://www-01.ibm.com/common/ssi/ShowDoc.wss?docURL=
 url_zosmf_ansible_galaxy: https://galaxy.ansible.com/ibm/ibm_zos_zosmf
 url_cics_content_solution: https://www.ibm.com/support/z-content-solutions/serverpac-install-zosmf/ 
 url_zosmf_ansible_github_usecase: https://github.com/IBM/ibm_zos_zosmf/tree/master/playbooks/use_cases/
+url_zosmf_dataset_api_tuning_guide: https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/hong-liang-zhao1/2020/10/13/tune-zosmf-rest-service
 
 # Titles and URLs for blogs
 url_leveraging_zosmf_ansible: https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/xiao-zhen-zhu1/2020/03/19/leveraging-zosmf-to-integrate-ansible-and-zos
