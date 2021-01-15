@@ -53,7 +53,7 @@ layout: default
 <div class="bluebackground">
   <section id="main_content" class="inner">
     <h1 id="what">About z/OSMF</h1>
-    <p>IBM z/OS Management Facility (z/OSMF) provides a framework for managing various aspects of a z/OS system through a task oriented, Web browser interface. By streamlining some traditional tasks and automating others, z/OSMF can help to simplify some areas of system management and reduce the level of expertise needed for managing a system.</p>
+    <p>IBM z/OS Management Facility (z/OSMF) provides a framework for managing various aspects of a z/OS system through a task-oriented, web browser interface. By streamlining some traditional tasks and automating others, z/OSMF can help to simplify some areas of system management and reduce the level of expertise that is needed for managing a system.</p>
     <p><li>Learn more about z/OSMF:</li></p>
     <button><a href="{{ site.url_zosmf_knowledge_center }}" target="_blank">z/OSMF Knowledge Center</a></button>
     <div class="div_space"></div>
@@ -66,11 +66,11 @@ layout: default
 <div class="whitebackground">
   <section id="main_content" class="inner">
     <h1 id="how">Get Started</h1>
-    <p>IBM Z Software Trials (zTrial) provides a no-charge trial for z/OSMF without installation required:</p>
+    <p>The IBM Z software trials program provides a no-charge trial for z/OSMF that does not require installation:</p>
     <button><a href="{{ site.url_zosmf_trial }}" target="_blank">z/OSMF Trial</a></button>
-    <p>You can also go to the GitHub repository to download the demonstration of z/OSMF functions:</p>
+    <p>The IBM-Z-zOS GitHub repository provides demonstrations of z/OSMF functions that you can download:</p>
     <button><a href="{{ site.url_zosmf_sample_code }}" target="_blank">z/OSMF GitHub</a></button>
-    <p>Here are a series of tutorial videos and online courses for z/OSMF plugins:</p>
+    <p>IBM provides a series of tutorial videos and online courses to help you learn more about specific z/OSMF tasks:</p>
     <div class="div_img">
       <div>
         <p><a href="{{ site.url_video_zosmf_dataset_ussfile }}" target="_blank"><img src="{{ site.img_video_zosmf_dataset_ussfile }}"/></a></p>
@@ -135,7 +135,7 @@ layout: default
 <div class="bluebackground">
   <section id="main_content" class="inner">
     <h1 id="documentation">Documentation</h1>
-    <p>We provide some expert documentations for you to learn more about z/OSMF:</p>
+    <p>IBM provides some expert documentation to help you learn more about z/OSMF:</p>
     <button><a href="{{ site.url_zosmf_configuration_guide }}" target="_blank">z/OSMF Configuration Guide</a></button>
     <div class="div_space"></div>
     <button><a href="{{ site.url_zosmf_programming_guide }}" target="_blank">z/OSMF Programming Guide</a></button>
@@ -151,7 +151,7 @@ layout: default
     <button><a href="{{ site.url_zosmf_cpm_knowledge_center }}" target="_blank">CP&M Knowledge Center</a></button>
     <div class="div_space"></div>
     <button><a href="{{ site.url_zosmf_cpm_trial }}" target="_blank">CP&M Trial</a></button>
-    <p><li>Other documentations:</li></p>
+    <p><li>Other documentation:</li></p>
     <button><a href="{{ site.url_cics_content_solution }}" target="_blank">CICS Content Solution</a></button>
   </section>
 </div>
@@ -159,7 +159,7 @@ layout: default
 <div class="whitebackground">
   <section id="main_content" class="inner">
     <h1 id="community">Community</h1>
-    <p>We provide a worldwide community which offers business and technical experts, blogs and forums to exchange ideas, connect through shared interests and develop expertise:</p>
+    <p>The IBM Z and LinuxONE Community provides business and technical experts around the world the ability to exchange ideas, develop expertise, and connect through shared interests:</p>
     <button><a href="{{ site.url_zosmf_community }}" target="_blank">z/OSMF Community</a></button>
   </section>
 </div>
@@ -167,7 +167,7 @@ layout: default
 <div class="bluebackground">
   <section id="main_content" class="inner">
     <h1 id="user-reference">User Reference</h1>
-    <p>Following cases will show you how customers benefit from z/OSMF:</p>
+    <p>The following cases illustrate how customers benefit from z/OSMF:</p>
     <div class="div_blog">
       <div>
         <button><a href="{{ site.url_blog_icbc }}" target="_blank">{{ site.customer_icbc }}</a></button>
@@ -191,7 +191,7 @@ layout: default
 <div class="whitebackground">
   <section id="main_content" class="inner">
     <h1 id="contact-us">Contact Us</h1>
-    <p>The <em>zosmf-adoption</em> Channel on Slack is provided for open discussion on configuration, adoption, marketing, and events for z/OSMF product.</p>
+    <p>The <em>zosmf-adoption</em> channel on Slack is provided for open discussion about configuration, adoption, marketing, and events for the z/OSMF product.</p>
     <button><a href="{{ site.url_zosmf_slack_channel }}" target="_blank">Slack Channel</a></button>
     <!-- <table>
       <tr>
