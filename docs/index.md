@@ -5,6 +5,7 @@ layout: default
 <div class="greybackground">
   <section id="main_content" class="inner">
     <h1>News</h1>
+    <p><strong>Check out <a href="{{ site.url_video_zosmf_ansible_collection }}" target="_blank">our latest video</a> about z/OSMF Ansible collection.</strong></p>
     <p><strong>Check out our sample Ansible playbooks for automating 3 different z/OS use cases at <a href="{{ site.url_zosmf_ansible_github_usecase }}" target="_blank">here</a>!</strong></p>
     <p><strong>z/OSMF enhancements in 4Q 2020:</strong></p>
     <p><li>z/OSMF Ansible collection is enhanced to support MVS operator commands as well as fetching sequential data set or PDS/E data set member.</li></p>
@@ -15,11 +16,11 @@ layout: default
     <p><li>z/OSMF Diagnostic Assistant is enhanced with PH25691 to support the display of z/OSMF data file system utilization on the z/OSMF desktop taskbar. It  also supports automatic cleanup of z/OSMF diagnostic data based on a predefined policy.</li></p>
     <p><li>z/OSMF Workflow Engine has several enhancements with the PTF for APAR PH28532. The workflow administrator can delete multiple workflow instances at a time. To perform a workflow on a remote sysplex, a single sign-on among z/OSMF instances is no longer strictly required. In the absence of a single sign-on, the request prompts for a user and password, if necessary. The "create new workflow instance" dialog now exploits the typeahead search for the workflow definition and workflow properties files. This can eliminate the need to provide the full data set name or path name.</li></p>
     <p><li>z/OSMF startup time and resource consumption during startup is improved with the PTFs for APARs PH28921, PH28920, PH28971, PH28990, PH28451, PH29230, PH29243, PH28832, and PH28872. Actual results can vary, depending on the client's configuration.</li></p>
-    <p><strong>z/OSMF startup improvement is now available:</strong></p>
-    <p><li>With the new PTFs we delivered for startup improvement, in lab measurements of a small z15 lpar, the startup time improved about 50%. Please refer to our <a href="{{ site.url_zosmf_startup_improvement }}" target="_blank">latest blog</a> for details.</li></p>
-    <p><strong>Check out <a href="{{ site.url_zosmf_client_certificate }}" target="_blank">this blog</a> about how to access z/OSMF with client certificate.</strong></p>
     <a href="#" class="show-previous-news">Show previous news...</a>
     <div class="previous-news" style="display: none">
+      <p><strong>z/OSMF startup improvement is now available:</strong></p>
+      <p><li>With the new PTFs we delivered for startup improvement, in lab measurements of a small z15 lpar, the startup time improved about 50%. Please refer to our <a href="{{ site.url_zosmf_startup_improvement }}" target="_blank">latest blog</a> for details.</li></p>
+      <p><strong>Check out <a href="{{ site.url_zosmf_client_certificate }}" target="_blank">this blog</a> about how to access z/OSMF with client certificate.</strong></p>
       <p><strong>z/OSMF Lite Stage 2 is now available:</strong></p>
       <p><li>z/OSMF Lite provides the flexibility to tailor z/OSMF runtime for better performance in a few clicks. With z/OSMF Lite, you can improve up to 50% startup performance. Please refer to our <a href="{{ site.url_tailor_zosmf_server }}" target="_blank">latest blog</a> for details.</li></p>
       <p><strong>z/OSMF enhancements in 2Q 2020:</strong></p>
@@ -127,6 +128,10 @@ layout: default
       <div>
         <p><a href="{{ site.url_video_zosmf_rest_api_dataset }}" target="_blank"><img src="{{ site.img_video_zosmf_rest_api_dataset }}"/></a></p>
         <p><a href="{{ site.url_video_zosmf_rest_api_dataset }}" target="_blank">{{ site.title_video_zosmf_rest_api_dataset }}</a></p>
+      </div>
+      <div>
+        <p><a href="{{ site.url_video_zosmf_ansible_collection }}" target="_blank"><img src="{{ site.img_video_zosmf_ansible_collection }}"/></a></p>
+        <p><a href="{{ site.url_video_zosmf_ansible_collection }}" target="_blank">{{ site.title_video_zosmf_ansible_collection }}</a></p>
       </div>
     </div>
   </section>
