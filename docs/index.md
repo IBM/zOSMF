@@ -17,8 +17,8 @@ layout: default
     <p><li>z/OSMF Workflow Engine has several enhancements with the PTF for APAR PH28532. The workflow administrator can delete multiple workflow instances at a time. To perform a workflow on a remote sysplex, a single sign-on among z/OSMF instances is no longer strictly required. In the absence of a single sign-on, the request prompts for a user and password, if necessary. The "create new workflow instance" dialog now exploits the typeahead search for the workflow definition and workflow properties files. This can eliminate the need to provide the full data set name or path name.</li></p>
     <p><li>z/OSMF startup time and resource consumption during startup is improved with the PTFs for APARs PH28921, PH28920, PH28971, PH28990, PH28451, PH29230, PH29243, PH28832, and PH28872. Actual results can vary, depending on the client's configuration.</li></p>
     <p><li>Cloud Provisioning and Management (CP&M) for z/OS continues to deliver many new functions and improved user experience via continuous delivery. The following features were delivered on December 10, 2020 with PTFs UI72944 (z/OS V2.3) and UI72945 (z/OS V2.4) to expand CP&M provisioning capability and offer a robust software provisioning platform on z/OS. Please refer to our <a href="{{ site.url_cpm_enhancement }}" target="_blank">latest blog</a> for details.</li></p>
-    <a href="#" class="show-previous-news">Show previous news...</a>
-    <div class="previous-news" style="display: none">
+    <a href="#" class="show-previous-news" id="show-previous-news" onclick="showPreNews()">Show previous news...</a>
+    <div class="previous-news" id="previous-news" style="display: none">
       <p><strong>z/OSMF startup improvement is now available:</strong></p>
       <p><li>With the new PTFs we delivered for startup improvement, in lab measurements of a small z15 lpar, the startup time improved about 50%. Please refer to our <a href="{{ site.url_zosmf_startup_improvement }}" target="_blank">latest blog</a> for details.</li></p>
       <p><strong>Check out <a href="{{ site.url_zosmf_client_certificate }}" target="_blank">this blog</a> about how to access z/OSMF with client certificate.</strong></p>
@@ -47,7 +47,7 @@ layout: default
       <p><li>z/OSMF startup time is reduced by APAR PH19227 and PH06678.</li></p>
       <p><strong>z/OSMF V2R4 is now available in Sep 2019:</strong></p>
       <p><li>Please refer to <a href="{{ site.url_share_fort_worth }}" target="_blank">the latest handout from SHARE Fort Worth</a> or <a href="{{ site.url_zos_v2r4_announcement }}" target="_blank">z/OS V2R4 Announcement</a>.</li></p>
-      <a href="#" class="hide-previous-news">Hide previous news...</a>
+      <a href="#" class="hide-previous-news" id="hide-previous-news" onclick="hidePreNews()">Hide previous news...</a>
     </div>
   </section>
 </div>

@@ -22,26 +22,33 @@
     <link rel="stylesheet" type="text/css" media="screen" href="{{ 'assets/css/style.css' | relative_url }}">
   </head>
 
-  <body>
+  <body onscroll="showBackToTop()">
     <!-- BACK TO TOP -->
     <script
       src="https://code.jquery.com/jquery-1.10.1.js"
       integrity="sha256-663tSdtipgBgyqJXfypOwf9ocmvECGG8Zdl3q+tk+n0="
       crossorigin="anonymous">
     </script>
-    <a href="#" class="back-to-top">Back to Top</a>
+    <a href="#" class="back-to-top" id="back-to-top" style="display: none" onclick="backToTop()">Back to Top</a>
     <script>
-      $(window).scroll(function () {
-        if ($(window).scrollTop() > 250) {
-          $("a.back-to-top").fadeIn("slow");
+      function showPreNews() {
+        document.getElementById("show-previous-news").style.display = "none";
+        document.getElementById("previous-news").style.display = "";
+      }
+      function hidePreNews() {
+        document.getElementById("show-previous-news").style.display = "";
+        document.getElementById("previous-news").style.display = "none";
+      }
+      function showBackToTop() {
+        if (document.documentElement.scrollTop > 250) {
+          document.getElementById("back-to-top").style.display = "";
         } else {
-          $("a.back-to-top").fadeOut("slow");
+          document.getElementById("back-to-top").style.display = "none";
         }
-      });
-      $("a.back-to-top").click(function () {
-        $("html, body").animate({scrollTop: 0}, 700);
-        return false;
-      });
+      }
+      function backToTop() {
+        document.documentElement.scrollTop = 0;
+      }
     </script>
 
     <!-- HEADER -->
@@ -65,18 +72,6 @@
     <div id="main_content_wrap" class="outer">
         {{ content }}
     </div>
-    <script>
-      $("a.show-previous-news").click(function () {
-        $("a.show-previous-news").hide();
-        $("div.previous-news").show();
-        return false;
-      });
-      $("a.hide-previous-news").click(function () {
-        $("a.show-previous-news").show();
-        $("div.previous-news").hide();
-        return false;
-      });
-    </script>
 
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
