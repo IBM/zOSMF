@@ -5,7 +5,8 @@ layout: default
 <div class="greybackground">
   <section id="main_content" class="inner">
     <h1>News</h1>
-    <p><strong>Check out <a href="{{ site.url_video_zosmf_ansible_collection }}" target="_blank">our latest video</a> about z/OSMF Ansible collection.</strong></p>
+    <p><strong>Check out our <a href="{{ site.url_zosmf_desktop_ui }}" target="_blank">latest blog</a> about z/OSMF Desktop UI.</strong></p>
+    <p><strong>Check out our <a href="{{ site.url_video_zosmf_ansible_collection }}" target="_blank">latest video</a> about z/OSMF Ansible collection.</strong></p>
     <p><strong>Check out our sample Ansible playbooks for automating 3 different z/OS use cases at <a href="{{ site.url_zosmf_ansible_github_usecase }}" target="_blank">here</a>!</strong></p>
     <p><strong>z/OSMF enhancements in 4Q 2020:</strong></p>
     <p><li>z/OSMF Ansible collection is enhanced to support MVS operator commands as well as fetching sequential data set or PDS/E data set member.</li></p>

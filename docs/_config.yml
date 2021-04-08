@@ -18,7 +18,7 @@ url_zosmf_configuration_guide: https://www.ibm.com/support/knowledgecenter/SSLTB
 url_zosmf_programming_guide: https://www.ibm.com/support/knowledgecenter/SSLTBW_2.4.0/com.ibm.zos.v2r4.izua700/V2R4/zosmf/izua700/abstract.htm
 url_zosmf_redbook: http://www.redbooks.ibm.com/redbooks/pdfs/sg247851.pdf
 url_zosmf_apars: https://www.ibm.com/support/pages/ibm-zos-management-facility-zosmf
-url_zosmf_community: https://www.ibm.com/community/z/ibmz/os/zos/zosmf/
+url_zosmf_community: https://community.ibm.com/community/user/ibmz-and-linuxone/groups/topic-home?CommunityKey=1ca674e5-aada-4194-a16e-059cafe7b807
 url_zosmf_survey: https://www.surveygizmo.com/s3/5044915/z-OS-Management-Facility-2019-Survey
 url_zosmf_slack_channel: https://app.slack.com/client/T1BAJVCTY/CGLJM7W4W
 url_zosmf_zorow: https://www.openmainframeproject.org/projects/zorow
@@ -32,6 +32,7 @@ url_cics_content_solution: https://www.ibm.com/support/z-content-solutions/serve
 url_zosmf_ansible_github_usecase: https://github.com/IBM/ibm_zos_zosmf/tree/master/playbooks/use_cases/
 url_zosmf_dataset_api_tuning_guide: https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/hong-liang-zhao1/2020/10/13/tune-zosmf-rest-service
 url_cpm_enhancement: https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/hiren-shah1/2021/01/19/whats-new-in-ibm-cloud-prov-mgmt-10-12-20
+url_zosmf_desktop_ui: https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/xiao-zhen-zhu1/2021/04/07/ten-tips-you-may-not-know-about-zosmf-desktop-ui?CommunityKey=e7b7d299-8509-4572-8cf1-c1112684644f
 
 # Titles and URLs for blogs
 url_leveraging_zosmf_ansible: https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/xiao-zhen-zhu1/2020/03/19/leveraging-zosmf-to-integrate-ansible-and-zos
