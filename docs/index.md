@@ -5,6 +5,8 @@ layout: default
 <div class="greybackground">
   <section id="main_content" class="inner">
     <h1>News</h1>
+    <p><strong>Check out our <a href="{{ site.url_zowe_cli }}" target="_blank">latest blog</a> about performance measurement reference for Zowe CLI scenario.</strong></p>
+    <p><strong>z/OSMF Security Configuration Assistant now supports external product. Check out our latest video at <a href="{{ site.url_video_zosmf_validate_dfsms_security }}" target="_blank">here</a>.</strong></p>
     <p><strong>Check out our <a href="{{ site.url_zosmf_desktop_ui }}" target="_blank">latest blog</a> about z/OSMF Desktop UI.</strong></p>
     <p><strong>Check out our <a href="{{ site.url_video_zosmf_ansible_collection }}" target="_blank">latest video</a> about z/OSMF Ansible collection.</strong></p>
     <p><strong>Check out our sample Ansible playbooks for automating 3 different z/OS use cases at <a href="{{ site.url_zosmf_ansible_github_usecase }}" target="_blank">here</a>!</strong></p>
