@@ -49,6 +49,16 @@
       function backToTop() {
         document.documentElement.scrollTop = 0;
       }
+      function showDetails(id) {
+        let element = document.getElementById(id);
+        element.style.display = "none";
+        element.nextElementSibling.style.display = "";
+      }
+      function hideDetails(id) {
+        let element = document.getElementById(id);
+        element.parentElement.previousElementSibling.style.display = "";
+        element.parentElement.style.display = "none";
+      }
     </script>
 
     <!-- HEADER -->
