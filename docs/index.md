@@ -5,8 +5,7 @@ layout: default
 <div class="greybackground">
   <section id="main_content" class="inner">
     <h1>News</h1>
-    <p><strong>z/OSMF enhancements in 1H 2021:</strong></p>
-    <a href="#" id="show-2021-1H" onclick="showDetails(this.id)">Click for details.</a>
+    <p><strong>z/OSMF enhancements in 1H 2021 <a href="#" id="show-2021-1H" onclick="showDetails(this.id)">(Click for details)</a>:</strong></p>
     <div id="2021-1H" style="display: none">
       <p><li>z/OSMF Workflows is enhanced by APAR PH27725 to support searching keywords from the content of workflow step. This could help user to quickly locate corresponding steps.</li></p>
       <p><li>z/OSMF Security Configuration Assistant (a.k.a. SCA) plugin is enhanced by APAR PH29907 to support z/OS components, features, products or self-defined json format of security requirement file. Check out our video at <a href="{{ site.url_video_zosmf_validate_dfsms_security }}" target="_blank">here</a>.</li></p>
@@ -25,8 +24,7 @@ layout: default
       <p><strong>Check out our <a href="{{ site.url_zosmf_desktop_ui }}" target="_blank">latest blog</a> about z/OSMF Desktop UI.</strong></p>
       <p><strong>Check out our <a href="{{ site.url_video_zosmf_ansible_collection }}" target="_blank">latest video</a> about z/OSMF Ansible collection.</strong></p>
       <p><strong>Check out our sample Ansible playbooks for automating 3 different z/OS use cases at <a href="{{ site.url_zosmf_ansible_github_usecase }}" target="_blank">here</a>!</strong></p>
-      <p><strong>z/OSMF enhancements in 4Q 2020:</strong></p>
-      <a href="#" id="show-2020-4Q" onclick="showDetails(this.id)">Click for details.</a>
+      <p><strong>z/OSMF enhancements in 4Q 2020 <a href="#" id="show-2020-4Q" onclick="showDetails(this.id)">(Click for details)</a>:</strong></p>
       <div id="2020-4Q" style="display: none">
         <p><li>z/OSMF Ansible collection is enhanced to support MVS operator commands as well as fetching sequential data set or PDS/E data set member.</li></p>
         <p><li>z/OSMF Desktop is enhanced by PH28692 to support typeahead search. PH30398 also enhances z/OSMF Desktop to support creating data set. Clients can create a new physical sequential or partitioned data set based on an existing data set, a predefined template, or fully specified attributes.</li></p>
@@ -44,8 +42,7 @@ layout: default
       <p><strong>Check out <a href="{{ site.url_zosmf_client_certificate }}" target="_blank">this blog</a> about how to access z/OSMF with client certificate.</strong></p>
       <p><strong>z/OSMF Lite Stage 2 is now available:</strong></p>
       <p><li>z/OSMF Lite provides the flexibility to tailor z/OSMF runtime for better performance in a few clicks. With z/OSMF Lite, you can improve up to 50% startup performance. Please refer to our <a href="{{ site.url_tailor_zosmf_server }}" target="_blank">latest blog</a> for details.</li></p>
-      <p><strong>z/OSMF enhancements in 2Q 2020:</strong></p>
-      <a href="#" id="show-2020-2Q" onclick="showDetails(this.id)">Click for details.</a>
+      <p><strong>z/OSMF enhancements in 2Q 2020 <a href="#" id="show-2020-2Q" onclick="showDetails(this.id)">(Click for details)</a>:</strong></p>
       <div id="2020-2Q" style="display: none">
         <p><li>z/OSMF REST Jobs API is enhanced by APAR PH23046 to support search option and codepage conversion for spool outputs. Additional option is also introduced to return active jobs only and additional data like submit time.</li></p>
         <p><li>z/OSMF REST data set and file API is enhanced by APAR PH22030 to support "Allocate Like". Response time is also improved for retrieving content from large data set or USS file by supporting "Accept-Encoding: gzip" header.</li></p>
@@ -61,8 +58,7 @@ layout: default
       </div>
       <p><strong>z/OSMF Ansible collection is now available on Ansible Galaxy:</strong></p>
       <p><li><a href="{{ site.url_zosmf_ansible_galaxy }}" target="_blank">z/OSMF Ansible collection</a> helps you to integrate Ansible and z/OS without any environment change to z/OS. Please refer to our <a href="{{ site.url_leveraging_zosmf_ansible }}" target="_blank">latest blog</a> for details.</li></p>
-      <p><strong>z/OSMF enhancements in 4Q 2019:</strong></p>
-      <a href="#" id="show-2019-4Q" onclick="showDetails(this.id)">Click for details.</a>
+      <p><strong>z/OSMF enhancements in 4Q 2019 <a href="#" id="show-2019-4Q" onclick="showDetails(this.id)">(Click for details)</a>:</strong></p>
       <div id="2019-4Q" style="display: none">
         <p><li>z/OSMF Security Configuration Assistant is enhanced to support variable substitution and validation by user group with APAR PH17871.</li></p>
         <p><li>z/OSMF Desktop is enhanced by APAR PH16076 to support searching, browsing and editing USS file and directory from the same place where user can do similar operation with data sets today. User can also submit data set or USS file as JCL and check job output directly from the z/OSMF desktop editor or search window.</li></p>

@@ -52,11 +52,11 @@
       function showDetails(id) {
         let element = document.getElementById(id);
         element.style.display = "none";
-        element.nextElementSibling.style.display = "";
+        element.parentElement.parentElement.nextElementSibling.style.display = "";
       }
       function hideDetails(id) {
         let element = document.getElementById(id);
-        element.parentElement.previousElementSibling.style.display = "";
+        element.parentElement.previousElementSibling.children[0].children[0].style.display = "";
         element.parentElement.style.display = "none";
       }
     </script>
