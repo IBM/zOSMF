@@ -34,6 +34,7 @@ url_zosmf_dataset_api_tuning_guide: https://community.ibm.com/community/user/ibm
 url_cpm_enhancement: https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/hiren-shah1/2021/01/19/whats-new-in-ibm-cloud-prov-mgmt-10-12-20
 url_zosmf_desktop_ui: https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/xiao-zhen-zhu1/2021/04/07/ten-tips-you-may-not-know-about-zosmf-desktop-ui?CommunityKey=e7b7d299-8509-4572-8cf1-c1112684644f
 url_zowe_cli: https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/na-tian1/2021/04/08/zosmf-performance-measurement-reference
+url_zosmf_value_proposition: https://github.com/IBM/IBM-Z-zOS/blob/main/zOSMF/docs/zOSMF%20Value%20Proposition.pdf
 
 # Titles and URLs for blogs
 url_leveraging_zosmf_ansible: https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/xiao-zhen-zhu1/2020/03/19/leveraging-zosmf-to-integrate-ansible-and-zos
@@ -120,7 +121,7 @@ img_video_zosmf_ansible_collection: assets/img/zosmf_ansible.png
 
 url_video_zosmf_validate_dfsms_security: https://mediacenter.ibm.com/media/Use+z+OSMF+to+validate+security+of+DFSMS/1_17jzrqtg/101043781
 
-gems:
+plugins:
 # Redirect plugin
   - jekyll-redirect-from
 

@@ -5,6 +5,7 @@ layout: default
 <div class="greybackground">
   <section id="main_content" class="inner">
     <h1>News</h1>
+    <p><strong>Check out our <a href="{{ site.url_zosmf_value_proposition }}" target="_blank">z/OSMF Value Proposition</a> to learn about the unique value of z/OSMF by use case.</strong></p>
     <p><strong>z/OSMF enhancements in 1H 2021 <a href="#" id="show-2021-1H" onclick="showDetails(this.id)">(Click for details)</a>:</strong></p>
     <div id="2021-1H" style="display: none">
       <p><li>z/OSMF Workflows is enhanced by APAR PH27725 to support searching keywords from the content of workflow step. This could help user to quickly locate corresponding steps.</li></p>
@@ -18,9 +19,9 @@ layout: default
       <a href="#" id="hide-2021-1H" onclick="hideDetails(this.id)">Hide details.</a>
     </div>
     <p><strong>Check out our <a href="{{ site.url_zowe_cli }}" target="_blank">latest blog</a> about z/OSMF performance measurement reference for Zowe CLI scenario.</strong></p>
-    <p><strong>z/OSMF Security Configuration Assistant now supports external products. Check out our latest video at <a href="{{ site.url_video_zosmf_validate_dfsms_security }}" target="_blank">here</a>.</strong></p>
     <a href="#" class="show-previous-news" id="show-previous-news" onclick="showPreNews()">Show previous news...</a>
     <div class="previous-news" id="previous-news" style="display: none">
+      <p><strong>z/OSMF Security Configuration Assistant now supports external products. Check out our latest video at <a href="{{ site.url_video_zosmf_validate_dfsms_security }}" target="_blank">here</a>.</strong></p>
       <p><strong>Check out our <a href="{{ site.url_zosmf_desktop_ui }}" target="_blank">latest blog</a> about z/OSMF Desktop UI.</strong></p>
       <p><strong>Check out our <a href="{{ site.url_video_zosmf_ansible_collection }}" target="_blank">latest video</a> about z/OSMF Ansible collection.</strong></p>
       <p><strong>Check out our sample Ansible playbooks for automating 3 different z/OS use cases at <a href="{{ site.url_zosmf_ansible_github_usecase }}" target="_blank">here</a>!</strong></p>
@@ -173,6 +174,8 @@ layout: default
     <button><a href="{{ site.url_zosmf_redbook }}" target="_blank">z/OSMF Redbook</a></button>
     <div class="div_space"></div>
     <button><a href="{{ site.url_zosmf_apars }}" target="_blank">z/OSMF New Function APARs</a></button>
+    <div class="div_space"></div>
+    <button><a href="{{ site.url_zosmf_value_proposition }}" target="_blank">z/OSMF Value Proposition</a></button>
     <p><li>Learn more about z/OSMF Workflows:</li></p>
     <button><a href="{{ site.url_zosmf_zorow }}" target="_blank">z/OS Open Repository of Workflows</a></button>
     <p><li>Learn more about IBM Cloud Provisioning and Management for z/OS (CP&M):</li></p>
