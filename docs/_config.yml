@@ -27,9 +27,8 @@ url_zosmf_cpm_knowledge_center: https://www.ibm.com/support/knowledgecenter/SSLT
 url_zosmf_cpm_trial: https://www.ibm.com/account/reg/signup?formid=urx-19504
 url_share_fort_worth: https://events.share.org/Winter2020/Public/SessionDetails.aspx?FromPage=Sessions.aspx&SessionID=10288&SessionDateID=57
 url_zos_v2r4_announcement: https://www-01.ibm.com/common/ssi/ShowDoc.wss?docURL=/common/ssi/rep_ca/0/877/ENUSZP19-0410/index.html&request_locale=en
-url_zosmf_ansible_galaxy: https://galaxy.ansible.com/ibm/ibm_zos_zosmf
+url_zosmf_ansible_galaxy: https://galaxy.ansible.com/ibm/ibm_zosmf
 url_cics_content_solution: https://www.ibm.com/support/z-content-solutions/serverpac-install-zosmf/ 
-url_zosmf_ansible_github_usecase: https://github.com/IBM/ibm_zos_zosmf/tree/master/playbooks/use_cases/
 url_zosmf_dataset_api_tuning_guide: https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/hong-liang-zhao1/2020/10/13/tune-zosmf-rest-service
 url_cpm_enhancement: https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/hiren-shah1/2021/01/19/whats-new-in-ibm-cloud-prov-mgmt-10-12-20
 url_zosmf_desktop_ui: https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/xiao-zhen-zhu1/2021/04/07/ten-tips-you-may-not-know-about-zosmf-desktop-ui?CommunityKey=e7b7d299-8509-4572-8cf1-c1112684644f
@@ -37,7 +36,7 @@ url_zowe_cli: https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/n
 url_zosmf_value_proposition: https://github.com/IBM/IBM-Z-zOS/blob/main/zOSMF/docs/zOSMF%20Value%20Proposition.pdf
 
 # Titles and URLs for blogs
-url_leveraging_zosmf_ansible: https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/xiao-zhen-zhu1/2020/03/19/leveraging-zosmf-to-integrate-ansible-and-zos
+url_leveraging_zosmf_ansible: https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/travis-biro1/2021/05/10/announce-certified-ibm-zosmf-ansible-automation?utm_medium=OSocial&utm_source=Twitter&utm_content=000001AF&utm_term=10012355&utm_id=Twitter-IBM-zOSMF-Ansible-Automation-2021-10-05&social_post=4805581678&linkId=118356083
 url_tailor_zosmf_server: https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/zhi-li1/2020/08/10/tailor-your-zosmf-server-for-better-performance-in
 url_zosmf_startup_improvement: https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/jing-hua-jiang1/2020/10/30/make-your-zosmf-server-starts-significantly-faster
 url_zosmf_client_certificate: https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/yan-hui-wang1/2020/09/21/how-to-access-zosmf-with-client-certificate

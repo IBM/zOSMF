@@ -23,8 +23,6 @@ layout: default
     <div class="previous-news" id="previous-news" style="display: none">
       <p><strong>z/OSMF Security Configuration Assistant now supports external products. Check out our latest video at <a href="{{ site.url_video_zosmf_validate_dfsms_security }}" target="_blank">here</a>.</strong></p>
       <p><strong>Check out our <a href="{{ site.url_zosmf_desktop_ui }}" target="_blank">latest blog</a> about z/OSMF Desktop UI.</strong></p>
-      <p><strong>Check out our <a href="{{ site.url_video_zosmf_ansible_collection }}" target="_blank">latest video</a> about z/OSMF Ansible collection.</strong></p>
-      <p><strong>Check out our sample Ansible playbooks for automating 3 different z/OS use cases at <a href="{{ site.url_zosmf_ansible_github_usecase }}" target="_blank">here</a>!</strong></p>
       <p><strong>z/OSMF enhancements in 4Q 2020 <a href="#" id="show-2020-4Q" onclick="showDetails(this.id)">(Click for details)</a>:</strong></p>
       <div id="2020-4Q" style="display: none">
         <p><li>z/OSMF Ansible collection is enhanced to support MVS operator commands as well as fetching sequential data set or PDS/E data set member.</li></p>
