@@ -56,7 +56,7 @@ customer_cmb: CMB
 
 # Titles and URLs for tutorial videos
 title_video_zosmf_overview: z/OSMF Overview
-url_video_zosmf_overview: https://mediacenter.ibm.com/media/z+OSMF+Overview/1_wb6devai/101043781
+url_video_zosmf_overview: https://community.ibm.com/community/user/ibmz-and-linuxone/viewdocument/zosmf-guild-session-1-recording?CommunityKey=1ca674e5-aada-4194-a16e-059cafe7b807&tab=librarydocuments
 
 title_video_zosmf_dataset_ussfile: Desktop Dataset and USS File Search
 url_video_zosmf_dataset_ussfile: https://mediacenter.ibm.com/media/t/1_qmzvt1qu
@@ -119,6 +119,8 @@ url_video_zosmf_ansible_collection:  https://mediacenter.ibm.com/media/1_08gqgr9
 img_video_zosmf_ansible_collection: assets/img/zosmf_ansible.png
 
 url_video_zosmf_validate_dfsms_security: https://mediacenter.ibm.com/media/Use+z+OSMF+to+validate+security+of+DFSMS/1_17jzrqtg/101043781
+
+url_video_zosmf_ansible_workflow: https://mediacenter.ibm.com/playlist/dedicated/33945322/1_wy690s0x/1_jzltgsva
 
 plugins:
 # Redirect plugin

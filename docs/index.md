@@ -6,6 +6,7 @@ layout: default
   <section id="main_content" class="inner">
     <h1>News</h1>
     <p><strong>Check out our <a href="{{ site.url_zosmf_value_proposition }}" target="_blank">z/OSMF Value Proposition</a> to learn about the unique value of z/OSMF by use case.</strong></p>
+    <p><strong>Check out our latest <a href="{{ site.url_video_zosmf_ansible_workflow }}" target="_blank">video</a> about introduction and demo for Ansible drives Workflow.</strong></p>
     <p><strong>z/OSMF enhancements in 1H 2021 <a href="#" id="show-2021-1H" onclick="showDetails(this.id)">(Click for details)</a>:</strong></p>
     <div id="2021-1H" style="display: none">
       <p><li>z/OSMF Workflows is enhanced by APAR PH27725 to support searching keywords from the content of workflow step. This could help user to quickly locate corresponding steps.</li></p>
@@ -18,9 +19,9 @@ layout: default
       <p><li>A new REST API is provided by PH35244 to allow user to issue TSO command. Previously, to issue TSO command through z/OSMF REST API, user has to call several REST APIs and manage the life cycle of TSO address space. This new REST API simplifies the process and only requires one stateless call.</li></p>
       <a href="#" id="hide-2021-1H" onclick="hideDetails(this.id)">Hide details.</a>
     </div>
-    <p><strong>Check out our <a href="{{ site.url_zowe_cli }}" target="_blank">latest blog</a> about z/OSMF performance measurement reference for Zowe CLI scenario.</strong></p>
     <a href="#" class="show-previous-news" id="show-previous-news" onclick="showPreNews()">Show previous news...</a>
     <div class="previous-news" id="previous-news" style="display: none">
+      <p><strong>Check out our <a href="{{ site.url_zowe_cli }}" target="_blank">latest blog</a> about z/OSMF performance measurement reference for Zowe CLI scenario.</strong></p>
       <p><strong>z/OSMF Security Configuration Assistant now supports external products. Check out our latest video at <a href="{{ site.url_video_zosmf_validate_dfsms_security }}" target="_blank">here</a>.</strong></p>
       <p><strong>Check out our <a href="{{ site.url_zosmf_desktop_ui }}" target="_blank">latest blog</a> about z/OSMF Desktop UI.</strong></p>
       <p><strong>z/OSMF enhancements in 4Q 2020 <a href="#" id="show-2020-4Q" onclick="showDetails(this.id)">(Click for details)</a>:</strong></p>
