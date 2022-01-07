@@ -34,6 +34,8 @@ url_cpm_enhancement: https://community.ibm.com/community/user/ibmz-and-linuxone/
 url_zosmf_desktop_ui: https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/xiao-zhen-zhu1/2021/04/07/ten-tips-you-may-not-know-about-zosmf-desktop-ui?CommunityKey=e7b7d299-8509-4572-8cf1-c1112684644f
 url_zowe_cli: https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/na-tian1/2021/04/08/zosmf-performance-measurement-reference
 url_zosmf_value_proposition: https://github.com/IBM/IBM-Z-zOS/blob/main/zOSMF/docs/zOSMF%20Value%20Proposition.pdf
+url_zosmf_community_guild: https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/rolando-perez/2021/11/03/zosmf-guild
+url_zosmf_channel: https://mediacenter.ibm.com/channel/z_OS+Management+Facility/33945322
 
 # Titles and URLs for blogs
 url_leveraging_zosmf_ansible: https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/travis-biro1/2021/05/10/announce-certified-ibm-zosmf-ansible-automation?utm_medium=OSocial&utm_source=Twitter&utm_content=000001AF&utm_term=10012355&utm_id=Twitter-IBM-zOSMF-Ansible-Automation-2021-10-05&social_post=4805581678&linkId=118356083
@@ -115,7 +117,7 @@ url_video_zosmf_rest_api_dataset:  https://mediacenter.ibm.com/media/t/1_kz4w4s1
 img_video_zosmf_rest_api_dataset: assets/img/rest_api.png
 
 title_video_zosmf_ansible_collection: z/OSMF Ansible Collection
-url_video_zosmf_ansible_collection:  https://mediacenter.ibm.com/media/1_08gqgr91
+url_video_zosmf_ansible_collection: https://mediacenter.ibm.com/playlist/dedicated/33945322/1_wy690s0x/1_jzltgsva
 img_video_zosmf_ansible_collection: assets/img/zosmf_ansible.png
 
 url_video_zosmf_validate_dfsms_security: https://mediacenter.ibm.com/media/Use+z+OSMF+to+validate+security+of+DFSMS/1_17jzrqtg/101043781
