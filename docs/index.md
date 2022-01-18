@@ -261,6 +261,15 @@ layout: default
         <a href="{{ site.url_blog_cmb }}" target="_blank">{{ site.title_blog_cmb }}</a>
       </div>
     </div>
+    <p>z/OSMF Badges:</p>
+    <div class="div_img">
+      <div>
+        <p><a href="{{ site.url_badge_zosmf_experienced }}" target="_blank"><img src="{{ site.img_badge_zosmf_experienced }}"/></a></p>
+      </div>
+      <div>
+        <p><a href="{{ site.url_badge_zert_config_nca }}" target="_blank"><img src="{{ site.img_badge_zert_config_nca }}"/></a></p>
+      </div>
+    </div>
   </section>
 </div>
 
