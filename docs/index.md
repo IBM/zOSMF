@@ -261,19 +261,31 @@ layout: default
         <a href="{{ site.url_blog_cmb }}" target="_blank">{{ site.title_blog_cmb }}</a>
       </div>
     </div>
-    <p>z/OSMF Badges:</p>
+  </section>
+</div>
+
+<div class="whitebackground">
+  <section id="main_content" class="inner">
+    <h1 id="zosmf-badges">z/OSMF Badges</h1>
+    <p>Start your free online learning and get the following z/OSMF badges:</p>
     <div class="div_img">
       <div>
         <p><a href="{{ site.url_badge_zosmf_experienced }}" target="_blank"><img src="{{ site.img_badge_zosmf_experienced }}"/></a></p>
+        <p><a href="{{ site.url_badge_zosmf_experienced }}" target="_blank">{{ site.title_badge_zosmf_experienced }}</a></p>
       </div>
       <div>
         <p><a href="{{ site.url_badge_zert_config_nca }}" target="_blank"><img src="{{ site.img_badge_zert_config_nca }}"/></a></p>
+        <p><a href="{{ site.url_badge_zert_config_nca }}" target="_blank">{{ site.title_badge_zert_config_nca }}</a></p>
+      </div>
+      <div>
+        <p><a href="{{ site.url_badge_tcpip_config_nca }}" target="_blank"><img src="{{ site.img_badge_tcpip_config_nca }}"/></a></p>
+        <p><a href="{{ site.url_badge_tcpip_config_nca }}" target="_blank">{{ site.title_badge_tcpip_config_nca }}</a></p>
       </div>
     </div>
   </section>
 </div>
 
-<div class="whitebackground">
+<div class="bluebackground">
   <section id="main_content" class="inner">
     <h1 id="contact-us">Contact Us</h1>
     <p>The <em>zosmf-adoption</em> channel on Slack is provided for open discussion about configuration, adoption, marketing, and events for the z/OSMF product.</p>

@@ -120,11 +120,17 @@ title_video_zosmf_ansible_collection: z/OSMF Ansible Collection
 url_video_zosmf_ansible_collection: https://mediacenter.ibm.com/playlist/dedicated/33945322/1_wy690s0x/1_jzltgsva
 img_video_zosmf_ansible_collection: assets/img/zosmf_ansible.png
 
+title_badge_zosmf_experienced: Interskill – Mainframe Specialist - z/OS Management Facility - Experienced
 url_badge_zosmf_experienced: https://www.credly.com/badges/a91e7c43-af7e-4b01-96f7-c085b31a8c6d
 img_badge_zosmf_experienced: assets/img/badge_zosmf_experienced.png
 
+title_badge_zert_config_nca: zERT Policy Enforcement Configuration with NCA
 url_badge_zert_config_nca: https://www.credly.com/org/ibm/badge/zert-policy-enforcement-configuration-with-nca
 img_badge_zert_config_nca: assets/img/badge_zert_config_nca.png
+
+title_badge_tcpip_config_nca: z/OS TCP/IP Configuration with Network Configuration Assistant
+url_badge_tcpip_config_nca: https://learn.ibm.com/course/view.php?id=5572
+img_badge_tcpip_config_nca: assets/img/badge_tcpip_config_nca.png
 
 url_video_zosmf_validate_dfsms_security: https://mediacenter.ibm.com/media/Use+z+OSMF+to+validate+security+of+DFSMS/1_17jzrqtg/101043781
 
