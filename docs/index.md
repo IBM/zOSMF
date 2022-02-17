@@ -5,6 +5,7 @@ layout: default
 <div class="greybackground">
   <section id="main_content" class="inner">
     <h1>News</h1>
+    <p><strong><a href="{{ site.url_zosmf_survey }}" target="_blank">z/OSMF Annual Survey for 2022</a> is now online! Come and help us understand your usage of z/OSMF and also prioritize future enhancements.</strong></p>
     <p><strong>z/OSMF enhancements in 2H 2021 <a href="#" id="show-2021-2H" onclick="showDetails(this.id)">(Click for details)</a>:</strong></p>
     <div id="2021-2H" style="display: none">
       <ul>
@@ -23,9 +24,9 @@ layout: default
       <a href="#" id="hide-2021-2H" onclick="hideDetails(this.id)">Hide details.</a>
     </div>
     <p><strong>z/OSMF Community Guild was founded in Nov 2021. Welcome to participate <a href="{{ site.url_zosmf_community_guild }}" target="_blank">this guild</a> for discovering, learning and sharing about z/OSMF.</strong></p>
-    <p><strong>Check out our <a href="{{ site.url_zosmf_value_proposition }}" target="_blank">z/OSMF Value Proposition</a> to learn about the unique value of z/OSMF by use case.</strong></p>    
     <a href="#" class="show-previous-news" id="show-previous-news" onclick="showPreNews()">Show previous news...</a>
     <div class="previous-news" id="previous-news" style="display: none">
+      <p><strong>Check out our <a href="{{ site.url_zosmf_value_proposition }}" target="_blank">z/OSMF Value Proposition</a> to learn about the unique value of z/OSMF by use case.</strong></p>
       <p><strong>Check out our latest <a href="{{ site.url_video_zosmf_ansible_workflow }}" target="_blank">video</a> about introduction and demo for Ansible drives Workflow.</strong></p>
       <p><strong>z/OSMF enhancements in 1H 2021 <a href="#" id="show-2021-1H" onclick="showDetails(this.id)">(Click for details)</a>:</strong></p>
       <div id="2021-1H" style="display: none">
