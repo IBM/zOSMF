@@ -5,7 +5,7 @@ layout: default
 <div class="greybackground">
   <section id="main_content" class="inner">
     <h1>News</h1>
-    <p><strong><a href="{{ site.url_zosmf_survey }}" target="_blank">z/OSMF Annual Survey for 2022</a> is now online! Come and help us understand your usage of z/OSMF and also prioritize future enhancements.</strong></p>
+    <p><strong>The new version of z/OSMF Ansible Collection is now online! Find more information in our <a href="{{ site.url_zosmf_ansible_collection }}" target="_blank">blog</a>.</strong></p>
     <p><strong>z/OSMF enhancements in 2H 2021 <a href="#" id="show-2021-2H" onclick="showDetails(this.id)">(Click for details)</a>:</strong></p>
     <div id="2021-2H" style="display: none">
       <ul>

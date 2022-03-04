@@ -19,7 +19,6 @@ url_zosmf_programming_guide: https://www.ibm.com/docs/en/zos/2.4.0?topic=facilit
 url_zosmf_redbook: http://www.redbooks.ibm.com/redbooks/pdfs/sg247851.pdf
 url_zosmf_apars: https://www.ibm.com/support/pages/ibm-zos-management-facility-zosmf
 url_zosmf_community: https://community.ibm.com/community/user/ibmz-and-linuxone/groups/topic-home?CommunityKey=1ca674e5-aada-4194-a16e-059cafe7b807
-url_zosmf_survey: https://www.surveygizmo.com/s3/5044915/z-OS-Management-Facility-2019-Survey
 url_zosmf_slack_channel: https://app.slack.com/client/T1BAJVCTY/CGLJM7W4W
 url_zosmf_zorow: https://www.openmainframeproject.org/projects/zorow
 url_zosmf_cpm_content_solution: https://www.ibm.com/support/z-content-solutions/cloud-provisioning
@@ -36,7 +35,7 @@ url_zowe_cli: https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/n
 url_zosmf_value_proposition: https://github.com/IBM/IBM-Z-zOS/blob/main/zOSMF/docs/zOSMF%20Value%20Proposition.pdf
 url_zosmf_community_guild: https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/rolando-perez/2021/11/03/zosmf-guild
 url_zosmf_channel: https://mediacenter.ibm.com/channel/z_OS+Management+Facility/33945322
-url_zosmf_survey: https://www.surveygizmo.com/s3/6710602/IBM-z-OS-Management-Facility-2022-Survey
+url_zosmf_ansible_collection: https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/rolando-perez/2022/03/02/zosmf-ansible-collection-1-1-updates
 
 # Titles and URLs for blogs
 url_leveraging_zosmf_ansible: https://community.ibm.com/community/user/ibmz-and-linuxone/blogs/travis-biro1/2021/05/10/announce-certified-ibm-zosmf-ansible-automation?utm_medium=OSocial&utm_source=Twitter&utm_content=000001AF&utm_term=10012355&utm_id=Twitter-IBM-zOSMF-Ansible-Automation-2021-10-05&social_post=4805581678&linkId=118356083
