@@ -132,7 +132,8 @@ layout: default
   <section id="main_content" class="inner">
     <h1 id="how">Get Started</h1>
     <p>The IBM Z software trials program provides a no-charge trial for z/OSMF that does not require installation:</p>
-    <button><a href="{{ site.url_zosmf_trial }}" target="_blank">z/OSMF Trial</a></button>
+    <button><a href="{{ site.url_zosmf_core_trial }}" target="_blank">z/OSMF Core Services Trial</a></button>
+    <button><a href="{{ site.url_zosmf_plugins_trial }}" target="_blank">z/OSMF Plug-ins Trial</a></button>
     <p>The IBM-Z-zOS GitHub repository provides demonstrations of z/OSMF functions that you can download:</p>
     <button><a href="{{ site.url_zosmf_sample_code }}" target="_blank">z/OSMF GitHub</a></button>
     <p>IBM provides a series of tutorial videos and online courses to help you learn more about specific z/OSMF tasks. For all z/OSMF videos, please refer to the <a href="{{ site.url_zosmf_channel }}" target="_blank">z/OSMF channel</a> of IBM MediaCenter.</p>
