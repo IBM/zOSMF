@@ -5,27 +5,51 @@ layout: default
 <div class="greybackground">
   <section id="main_content" class="inner">
     <h1>News</h1>
-    <p><strong>The new version of z/OSMF Ansible Collection is now online! Find more information in our <a href="{{ site.url_zosmf_ansible_collection }}" target="_blank">blog</a>.</strong></p>
-    <p><strong>z/OSMF enhancements in 2H 2021 <a href="#" id="show-2021-2H" onclick="showDetails(this.id)">(Click for details)</a>:</strong></p>
-    <div id="2021-2H" style="display: none">
+    <p><strong>z/OSMF enhancements in 1H 2022 <a href="#" id="show-2022-1H" onclick="showDetails(this.id)">(Click for details)</a>:</strong></p>
+    <div id="2022-1H" style="display: none">
       <ul>
-        <p><li>z/OSMF Desktop is enhanced to support more daily operations of data set or USS file. With z/OSMF V2R5 (APAR PH39605 on V2R4), a handy compare utility is built into z/OSMF Desktop. It provides modernized experience for comparing text format based data set or USS file. Copy, rename, and change permissions of USS file are now also supported (APAR PH39637 on V2R4).</li></p>
-        <p><li>Several new REST APIs as well as REST API enhancements are added into z/OSMF:
+        <p><li>Workflow is enhanced to support policy based archiving workflow (PH39153). The archived workflows can be saved in specified USS directory.</li></p>
+        <p><li>Security Configuration Assistant (SCA) is enhanced to support REST API for validating (PH41248) and fixing (PH39327) SAF resource based security requirements. With PH39327, users can also fix SAF resource based security requirements with a few clicks from SCA UI.</li></p>
+        <p><li><a href="{{ site.url_zosmf_ansible_collection_v12 }}" target="_blank">z/OSMF Ansible Collection</a> v1.2.0 is online and includes below enhancements
           <ul>
-            <p><li>NEW REST API to retrieve DFSMS Data Class and Storage Class information (APAR PH40099 for z/OS V2R4 and above)</li></p>
-            <p><li>NEW REST API to retrieve SYSLOG messages based on timestamp and direction (APAR PH38968 for z/OS V2R4 and above). This is an addition to previous OPERLOG API.</li></p>
-            <p><li>NEW REST API to retrieve run time value of System Symbols (APAR PH41196 for z/OS V2R4 and above)</li></p>
-            <p><li>NEW REST API to work with Sysplex CFRM policy data such as copying, renaming, deleting and activating policies. (APAR PH39685 for z/OS V2R4 and above).</li></p>
-            <p><li>z/OS data set and file API is enhanced to support specifying account number for purpose like charging and handling sepcial international characters in the name of data set or USS file. (APAR PH39690 for z/OS V2R4 and above)</li></p>
+            <p><li>Improved zmf_sca module to support security provisioning</li></p>
+            <p><li>Improved zmf_workflow to support reporting current step information when workflow is in progress</li></p>
           </ul>
         </li></p>
-        <p><li>Incident Log is enhanced to support using HTTPS for PDUU data transfer. (APAR PH39848 for z/OS V2R4 and above)</li></p>
+        <p><li>Sysplex Management is enhanced to support Import/Export of CFRM policies and bulk copy of structures (PH39687).</li></p>
+        <p><li>Sysplex Management is also enhanced to support comparing CFRM policy changes or differences and exporting CFRM policy with CSV format (PH44343).</li></p>
+        <p><li>z/OSMF Systems task supports verifying connection status from local z/OSMF to other z/OSMF (PH44158).</li></p>
+        <p><li>REST data set and file API is enhanced (PH44068) to support
+          <ul>
+            <p><li>Create and remove USS symbol links</li></p>
+            <p><li>Mount USS file system with nosetuid option</li></p>
+            <p><li>Set TSO region size and logon procedure through HTTP header</li></p>
+          </ul>
+        </li></p>
       </ul>
-      <a href="#" id="hide-2021-2H" onclick="hideDetails(this.id)">Hide details.</a>
+      <a href="#" id="hide-2022-1H" onclick="hideDetails(this.id)">Hide details.</a>
     </div>
+    <p><strong>The new version of z/OSMF Ansible Collection is now online! Find more information in our <a href="{{ site.url_zosmf_ansible_collection }}" target="_blank">blog</a>.</strong></p>
     <p><strong>z/OSMF Community Guild was founded in Nov 2021. Welcome to participate <a href="{{ site.url_zosmf_community_guild }}" target="_blank">this guild</a> for discovering, learning and sharing about z/OSMF.</strong></p>
     <a href="#" class="show-previous-news" id="show-previous-news" onclick="showPreNews()">Show previous news...</a>
     <div class="previous-news" id="previous-news" style="display: none">
+      <p><strong>z/OSMF enhancements in 2H 2021 <a href="#" id="show-2021-2H" onclick="showDetails(this.id)">(Click for details)</a>:</strong></p>
+      <div id="2021-2H" style="display: none">
+        <ul>
+          <p><li>z/OSMF Desktop is enhanced to support more daily operations of data set or USS file. With z/OSMF V2R5 (APAR PH39605 on V2R4), a handy compare utility is built into z/OSMF Desktop. It provides modernized experience for comparing text format based data set or USS file. Copy, rename, and change permissions of USS file are now also supported (APAR PH39637 on V2R4).</li></p>
+          <p><li>Several new REST APIs as well as REST API enhancements are added into z/OSMF:
+            <ul>
+              <p><li>NEW REST API to retrieve DFSMS Data Class and Storage Class information (APAR PH40099 for z/OS V2R4 and above)</li></p>
+              <p><li>NEW REST API to retrieve SYSLOG messages based on timestamp and direction (APAR PH38968 for z/OS V2R4 and above). This is an addition to previous OPERLOG API.</li></p>
+              <p><li>NEW REST API to retrieve run time value of System Symbols (APAR PH41196 for z/OS V2R4 and above)</li></p>
+              <p><li>NEW REST API to work with Sysplex CFRM policy data such as copying, renaming, deleting and activating policies. (APAR PH39685 for z/OS V2R4 and above).</li></p>
+              <p><li>z/OS data set and file API is enhanced to support specifying account number for purpose like charging and handling sepcial international characters in the name of data set or USS file. (APAR PH39690 for z/OS V2R4 and above)</li></p>
+            </ul>
+          </li></p>
+          <p><li>Incident Log is enhanced to support using HTTPS for PDUU data transfer. (APAR PH39848 for z/OS V2R4 and above)</li></p>
+        </ul>
+        <a href="#" id="hide-2021-2H" onclick="hideDetails(this.id)">Hide details.</a>
+      </div>
       <p><strong>Check out our <a href="{{ site.url_zosmf_value_proposition }}" target="_blank">z/OSMF Value Proposition</a> to learn about the unique value of z/OSMF by use case.</strong></p>
       <p><strong>Check out our latest <a href="{{ site.url_video_zosmf_ansible_workflow }}" target="_blank">video</a> about introduction and demo for Ansible drives Workflow.</strong></p>
       <p><strong>z/OSMF enhancements in 1H 2021 <a href="#" id="show-2021-1H" onclick="showDetails(this.id)">(Click for details)</a>:</strong></p>
