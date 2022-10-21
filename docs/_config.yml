@@ -122,6 +122,10 @@ title_video_zosmf_ansible_collection: z/OSMF Ansible Collection
 url_video_zosmf_ansible_collection: https://mediacenter.ibm.com/playlist/dedicated/33945322/1_wy690s0x/1_jzltgsva
 img_video_zosmf_ansible_collection: assets/img/zosmf_ansible.png
 
+title_video_zosmf_management_services_catalog: z/OS Management Services Catalog
+url_video_zosmf_management_services_catalog: https://mediacenter.ibm.com/media/Lifecycle+of+a+service+%7C+z+OS+Management+Service+Catalog+/1_9vfboe5c
+img_video_zosmf_management_services_catalog: assets/img/management_services_catalog.png
+
 title_badge_zosmf_experienced: Interskill – Mainframe Specialist - z/OS Management Facility - Experienced
 url_badge_zosmf_experienced: https://www.credly.com/badges/a91e7c43-af7e-4b01-96f7-c085b31a8c6d
 img_badge_zosmf_experienced: assets/img/badge_zosmf_experienced.png

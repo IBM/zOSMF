@@ -222,6 +222,10 @@ layout: default
         <p><a href="{{ site.url_video_zosmf_ansible_collection }}" target="_blank"><img src="{{ site.img_video_zosmf_ansible_collection }}"/></a></p>
         <p><a href="{{ site.url_video_zosmf_ansible_collection }}" target="_blank">{{ site.title_video_zosmf_ansible_collection }}</a></p>
       </div>
+      <div>
+        <p><a href="{{ site.url_video_zosmf_management_services_catalog }}" target="_blank"><img src="{{ site.img_video_zosmf_management_services_catalog }}"/></a></p>
+        <p><a href="{{ site.url_video_zosmf_management_services_catalog }}" target="_blank">{{ site.title_video_zosmf_management_services_catalog }}</a></p>
+      </div>
     </div>
   </section>
 </div>
