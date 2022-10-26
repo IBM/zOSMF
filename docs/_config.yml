@@ -15,8 +15,8 @@ url_zosmf_marketplace: https://www.ibm.com/us-en/marketplace/zos-management-faci
 url_zosmf_core_trial: https://early-access.ibm.com/software/support/trial/cst/welcomepage.wss?siteId=938&tabId=2220&w=1
 url_zosmf_plugins_trial: https://early-access.ibm.com/software/support/trial/cst/welcomepage.wss?siteId=1571&tabId=4294&w=1
 url_zosmf_sample_code: https://github.com/IBM/IBM-Z-zOS/tree/master/zOSMF
-url_zosmf_configuration_guide: https://www.ibm.com/docs/en/zos/2.4.0?topic=facility-zos-management-configuration-guide
-url_zosmf_programming_guide: https://www.ibm.com/docs/en/zos/2.4.0?topic=facility-zos-management-programming-guide
+url_zosmf_configuration_guide: https://www.ibm.com/docs/en/zos/2.5.0?topic=facility-zos-management-configuration-guide
+url_zosmf_programming_guide: https://www.ibm.com/docs/en/zos/2.5.0?topic=facility-zos-management-programming-guide
 url_zosmf_redbook: http://www.redbooks.ibm.com/redbooks/pdfs/sg247851.pdf
 url_zosmf_apars: https://www.ibm.com/support/pages/ibm-zos-management-facility-zosmf
 url_zosmf_community: https://community.ibm.com/community/user/ibmz-and-linuxone/groups/topic-home?CommunityKey=1ca674e5-aada-4194-a16e-059cafe7b807
