@@ -5,34 +5,46 @@ layout: default
 <div class="greybackground">
   <section id="main_content" class="inner">
     <h1>News</h1>
-    <p><strong>z/OSMF enhancements in 1H 2022 <a href="#" id="show-2022-1H" onclick="showDetails(this.id)">(Click for details)</a>:</strong></p>
-    <div id="2022-1H" style="display: none">
+    <p><strong>z/OSMF enhancements in 2H 2022 <a href="#" id="show-2022-2H" onclick="showDetails(this.id)">(Click for details)</a>:</strong></p>
+    <div id="2022-2H" style="display: none">
       <ul>
-        <p><li>Workflow is enhanced to support policy based archiving workflow (PH39153). The archived workflows can be saved in specified USS directory.</li></p>
-        <p><li>Security Configuration Assistant (SCA) is enhanced to support REST API for validating (PH41248) and fixing (PH39327) SAF resource based security requirements. With PH39327, users can also fix SAF resource based security requirements with a few clicks from SCA UI.</li></p>
-        <p><li><a href="{{ site.url_zosmf_ansible_collection_v12 }}" target="_blank">z/OSMF Ansible Collection</a> v1.2.0 is online and includes below enhancements
-          <ul>
-            <p><li>Improved zmf_sca module to support security provisioning</li></p>
-            <p><li>Improved zmf_workflow to support reporting current step information when workflow is in progress</li></p>
-          </ul>
-        </li></p>
-        <p><li>Sysplex Management is enhanced to support Import/Export of CFRM policies and bulk copy of structures (PH39687).</li></p>
-        <p><li>Sysplex Management is also enhanced to support comparing CFRM policy changes or differences and exporting CFRM policy with CSV format (PH44343).</li></p>
-        <p><li>z/OSMF Systems task supports verifying connection status from local z/OSMF to other z/OSMF (PH44158).</li></p>
-        <p><li>REST data set and file API is enhanced (PH44068) to support
-          <ul>
-            <p><li>Create and remove USS symbol links</li></p>
-            <p><li>Mount USS file system with nosetuid option</li></p>
-            <p><li>Set TSO region size and logon procedure through HTTP header</li></p>
-          </ul>
-        </li></p>
+        <p><li>z/OSMF Desktop supports uploading and downloading sequential data set, data set member and USS file with a few clicks via PH44157.</li></p>
+        <p><li>REST Jobs API supports notification for additional job events via PH44152.</li></p>
+        <p><li>Storage Management REST API is enhanced to support adding volume into Storage Group via PH44884.</li></p>
+        <p><li>Workflow supports signing workflow step to provide further secure workflow execution via PH43962.</li></p>
+        <p><li>Security configuration of z/OSMF nucleus can be verified via job with PH45350.</li></p>
       </ul>
-      <a href="#" id="hide-2022-1H" onclick="hideDetails(this.id)">Hide details.</a>
+      <a href="#" id="hide-2022-2H" onclick="hideDetails(this.id)">Hide details.</a>
     </div>
-    <p><strong>The new version of z/OSMF Ansible Collection is now online! Find more information in our <a href="{{ site.url_zosmf_ansible_collection }}" target="_blank">blog</a>.</strong></p>
+    <p><strong>z/OSMF Configuration Trial is online! A dedicated environment and step by step guide is ready for you at here.</strong></p>
     <p><strong>z/OSMF Community Guild was founded in Nov 2021. Welcome to participate <a href="{{ site.url_zosmf_community_guild }}" target="_blank">this guild</a> for discovering, learning and sharing about z/OSMF.</strong></p>
     <a href="#" class="show-previous-news" id="show-previous-news" onclick="showPreNews()">Show previous news...</a>
     <div class="previous-news" id="previous-news" style="display: none">
+      <p><strong>z/OSMF enhancements in 1H 2022 <a href="#" id="show-2022-1H" onclick="showDetails(this.id)">(Click for details)</a>:</strong></p>
+      <div id="2022-1H" style="display: none">
+        <ul>
+          <p><li>Workflow is enhanced to support policy based archiving workflow (PH39153). The archived workflows can be saved in specified USS directory.</li></p>
+          <p><li>Security Configuration Assistant (SCA) is enhanced to support REST API for validating (PH41248) and fixing (PH39327) SAF resource based security requirements. With PH39327, users can also fix SAF resource based security requirements with a few clicks from SCA UI.</li></p>
+          <p><li><a href="{{ site.url_zosmf_ansible_collection_v12 }}" target="_blank">z/OSMF Ansible Collection</a> v1.2.0 is online and includes below enhancements
+            <ul>
+              <p><li>Improved zmf_sca module to support security provisioning</li></p>
+              <p><li>Improved zmf_workflow to support reporting current step information when workflow is in progress</li></p>
+            </ul>
+          </li></p>
+          <p><li>Sysplex Management is enhanced to support Import/Export of CFRM policies and bulk copy of structures (PH39687).</li></p>
+          <p><li>Sysplex Management is also enhanced to support comparing CFRM policy changes or differences and exporting CFRM policy with CSV format (PH44343).</li></p>
+          <p><li>z/OSMF Systems task supports verifying connection status from local z/OSMF to other z/OSMF (PH44158).</li></p>
+          <p><li>REST data set and file API is enhanced (PH44068) to support
+            <ul>
+              <p><li>Create and remove USS symbol links</li></p>
+              <p><li>Mount USS file system with nosetuid option</li></p>
+              <p><li>Set TSO region size and logon procedure through HTTP header</li></p>
+            </ul>
+          </li></p>
+        </ul>
+        <a href="#" id="hide-2022-1H" onclick="hideDetails(this.id)">Hide details.</a>
+      </div>
+      <p><strong>The new version of z/OSMF Ansible Collection is now online! Find more information in our <a href="{{ site.url_zosmf_ansible_collection }}" target="_blank">blog</a>.</strong></p>
       <p><strong>z/OSMF enhancements in 2H 2021 <a href="#" id="show-2021-2H" onclick="showDetails(this.id)">(Click for details)</a>:</strong></p>
       <div id="2021-2H" style="display: none">
         <ul>
@@ -158,6 +170,7 @@ layout: default
     <p>The IBM Z software trials program provides a no-charge trial for z/OSMF that does not require installation:</p>
     <button><a href="{{ site.url_zosmf_core_trial }}" target="_blank">z/OSMF Core Services Trial</a></button>
     <button><a href="{{ site.url_zosmf_plugins_trial }}" target="_blank">z/OSMF Plug-ins Trial</a></button>
+    <button><a href="{{ site.url_zosmf_configuration_trial }}" target="_blank">z/OSMF Configuration Trial</a></button>
     <p>The IBM-Z-zOS GitHub repository provides demonstrations of z/OSMF functions that you can download:</p>
     <button><a href="{{ site.url_zosmf_sample_code }}" target="_blank">z/OSMF GitHub</a></button>
     <p>IBM provides a series of tutorial videos and online courses to help you learn more about specific z/OSMF tasks. For all z/OSMF videos, please refer to the <a href="{{ site.url_zosmf_channel }}" target="_blank">z/OSMF channel</a> of IBM MediaCenter.</p>

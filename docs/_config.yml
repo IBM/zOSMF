@@ -14,6 +14,7 @@ url_zosmf_knowledge_center: https://www.ibm.com/support/knowledgecenter/en/SSLTB
 url_zosmf_marketplace: https://www.ibm.com/us-en/marketplace/zos-management-facility
 url_zosmf_core_trial: https://early-access.ibm.com/software/support/trial/cst/welcomepage.wss?siteId=938&tabId=2220&w=1
 url_zosmf_plugins_trial: https://early-access.ibm.com/software/support/trial/cst/welcomepage.wss?siteId=1571&tabId=4294&w=1
+url_zosmf_configuration_trial: https://early-access.ibm.com/software/support/trial/cst/welcomepage.wss?siteId=1755&tabId=4828&w=1
 url_zosmf_sample_code: https://github.com/IBM/IBM-Z-zOS/tree/master/zOSMF
 url_zosmf_configuration_guide: https://www.ibm.com/docs/en/zos/2.5.0?topic=facility-zos-management-configuration-guide
 url_zosmf_programming_guide: https://www.ibm.com/docs/en/zos/2.5.0?topic=facility-zos-management-programming-guide
