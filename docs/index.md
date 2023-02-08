@@ -16,7 +16,7 @@ layout: default
       </ul>
       <a href="#" id="hide-2022-2H" onclick="hideDetails(this.id)">Hide details.</a>
     </div>
-    <p><strong>z/OSMF Configuration Trial is online! A dedicated environment and step by step guide is ready for you at here.</strong></p>
+    <p><strong>z/OSMF Configuration Trial is online! A dedicated environment and step by step guide is ready for you at <a href="{{ site.url_zosmf_configuration_trial }}" target="_blank">here</a>.</strong></p>
     <p><strong>z/OSMF Community Guild was founded in Nov 2021. Welcome to participate <a href="{{ site.url_zosmf_community_guild }}" target="_blank">this guild</a> for discovering, learning and sharing about z/OSMF.</strong></p>
     <a href="#" class="show-previous-news" id="show-previous-news" onclick="showPreNews()">Show previous news...</a>
     <div class="previous-news" id="previous-news" style="display: none">
