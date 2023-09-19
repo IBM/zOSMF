@@ -5,21 +5,22 @@ layout: default
 <div class="greybackground">
   <section id="main_content" class="inner">
     <h1>News</h1>
-    <p><strong>z/OSMF enhancements in 2H 2022 <a href="#" id="show-2022-2H" onclick="showDetails(this.id)">(Click for details)</a>:</strong></p>
-    <div id="2022-2H" style="display: none">
-      <ul>
-        <p><li>z/OSMF Desktop supports uploading and downloading sequential data set, data set member and USS file with a few clicks via PH44157.</li></p>
-        <p><li>REST Jobs API supports notification for additional job events via PH44152.</li></p>
-        <p><li>Storage Management REST API is enhanced to support adding volume into Storage Group via PH44884.</li></p>
-        <p><li>Workflow supports signing workflow step to provide further secure workflow execution via PH43962.</li></p>
-        <p><li>Security configuration of z/OSMF nucleus can be verified via job with PH45350.</li></p>
-      </ul>
-      <a href="#" id="hide-2022-2H" onclick="hideDetails(this.id)">Hide details.</a>
-    </div>
+    <p><strong>Check out <a href="{{ site.url_zosmf_guild_session }}" target="_blank">What’s NEW for z/OSMF 3.1 (Sep 2023)</a>.</strong></p>
     <p><strong>z/OSMF Configuration Trial is online! A dedicated environment and step by step guide is ready for you at <a href="{{ site.url_zosmf_configuration_trial }}" target="_blank">here</a>.</strong></p>
     <p><strong>z/OSMF Community Guild was founded in Nov 2021. Welcome to participate <a href="{{ site.url_zosmf_community_guild }}" target="_blank">this guild</a> for discovering, learning and sharing about z/OSMF.</strong></p>
     <a href="#" class="show-previous-news" id="show-previous-news" onclick="showPreNews()">Show previous news...</a>
     <div class="previous-news" id="previous-news" style="display: none">
+      <p><strong>z/OSMF enhancements in 2H 2022 <a href="#" id="show-2022-2H" onclick="showDetails(this.id)">(Click for details)</a>:</strong></p>
+      <div id="2022-2H" style="display: none">
+        <ul>
+          <p><li>z/OSMF Desktop supports uploading and downloading sequential data set, data set member and USS file with a few clicks via PH44157.</li></p>
+          <p><li>REST Jobs API supports notification for additional job events via PH44152.</li></p>
+          <p><li>Storage Management REST API is enhanced to support adding volume into Storage Group via PH44884.</li></p>
+          <p><li>Workflow supports signing workflow step to provide further secure workflow execution via PH43962.</li></p>
+          <p><li>Security configuration of z/OSMF nucleus can be verified via job with PH45350.</li></p>
+        </ul>
+        <a href="#" id="hide-2022-2H" onclick="hideDetails(this.id)">Hide details.</a>
+      </div>
       <p><strong>z/OSMF enhancements in 1H 2022 <a href="#" id="show-2022-1H" onclick="showDetails(this.id)">(Click for details)</a>:</strong></p>
       <div id="2022-1H" style="display: none">
         <ul>
