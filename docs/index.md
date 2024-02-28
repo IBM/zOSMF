@@ -325,6 +325,10 @@ layout: default
         <p><a href="{{ site.url_badge_tcpip_config_nca }}" target="_blank"><img src="{{ site.img_badge_tcpip_config_nca }}"/></a></p>
         <p><a href="{{ site.url_badge_tcpip_config_nca }}" target="_blank">{{ site.title_badge_tcpip_config_nca }}</a></p>
       </div>
+      <div>
+        <p><a href="{{ site.url_badge_installation_using_zosmf }}" target="_blank"><img src="{{ site.img_badge_installation_using_zosmf }}"/></a></p>
+        <p><a href="{{ site.url_badge_installation_using_zosmf }}" target="_blank">{{ site.title_badge_installation_using_zosmf }}</a></p>
+      </div>
     </div>
   </section>
 </div>

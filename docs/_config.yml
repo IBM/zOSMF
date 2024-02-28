@@ -140,6 +140,10 @@ title_badge_tcpip_config_nca: z/OS TCP/IP Configuration with Network Configurati
 url_badge_tcpip_config_nca: https://learn.ibm.com/course/view.php?id=5572
 img_badge_tcpip_config_nca: assets/img/badge_tcpip_config_nca.png
 
+title_badge_installation_using_zosmf: z/OS Installation Using z/OSMF
+url_badge_installation_using_zosmf: https://www.credly.com/org/ibm/badge/z-os-installation-using-z-osmf
+img_badge_installation_using_zosmf: assets/img/badge_installation_using_zosmf.png
+
 url_video_zosmf_validate_dfsms_security: https://mediacenter.ibm.com/media/Use+z+OSMF+to+validate+security+of+DFSMS/1_17jzrqtg/101043781
 
 url_video_zosmf_ansible_workflow: https://mediacenter.ibm.com/playlist/dedicated/33945322/1_wy690s0x/1_jzltgsva
