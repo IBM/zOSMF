@@ -89,15 +89,15 @@ url_video_zosmf_zos_operator_consoles: https://mediacenter.ibm.com/media/z+OSMF+
 img_video_zosmf_zos_operator_consoles: assets/img/zos_operator_consoles.png
 
 title_video_zosmf_workload_management: Workload Management
-url_video_zosmf_workload_management: https://mediacenter.ibm.com/media/z+OSMF+WLM+Tutorial/1_owwa9j55/101043781
+url_video_zosmf_workload_management: https://mediacenter.ibm.com/media/z+OSMF+WLM+Tutorial/1_owwa9j55
 img_video_zosmf_workload_management: assets/img/workload_management.png
 
 title_video_zosmf_incident_log: Incident Log
-url_video_zosmf_incident_log: https://mediacenter.ibm.com/media/z+OSMF+Incident+Log+Tutorial+-+Collect+diagnostic+data+and+send+to+IBM/1_huo1fejj/101043781
+url_video_zosmf_incident_log: https://mediacenter.ibm.com/media/z+OSMF+Incident+Log+Tutorial+-+Collect+diagnostic+data+and+send+to+IBM/1_huo1fejj
 img_video_zosmf_incident_log: assets/img/incident_log.png
 
 title_video_zosmf_sysplex_management: Sysplex Management
-url_video_zosmf_sysplex_management: https://mediacenter.ibm.com/media/Sysplex+Management+Overview/1_g5snla1t/101043781
+url_video_zosmf_sysplex_management: https://mediacenter.ibm.com/media/Sysplex+Management+Overview/1_g5snla1t
 img_video_zosmf_sysplex_management: assets/img/sysplex_management.png
 
 title_video_zosmf_security_configuration_assistant: Security Configuration Assistant
@@ -113,7 +113,7 @@ url_video_zosmf_zert_network_analyzer: https://commserver-ens.github.io/zNA_inte
 img_video_zosmf_zert_network_analyzer: assets/img/zert_network_analyzer.png
 
 title_video_zosmf_rest_api_tso: TSO/E Address Space Services
-url_video_zosmf_rest_api_tso: https://mediacenter.ibm.com/media/TSO+API/1_9lloubj0/101043781
+url_video_zosmf_rest_api_tso: https://mediacenter.ibm.com/media/TSO+API/1_9lloubj0
 img_video_zosmf_rest_api_tso: assets/img/rest_api.png
 
 title_video_zosmf_rest_api_dataset: Dataset REST Services
