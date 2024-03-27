@@ -279,6 +279,8 @@ layout: default
   <section id="main_content" class="inner">
     <h1 id="community">Community</h1>
     <p>The IBM Z and LinuxONE Community provides business and technical experts around the world the ability to exchange ideas, develop expertise, and connect through shared interests:</p>
+    <button><a href="{{ site.url_zosmf_community_guild }}" target="_blank">z/OSMF Community Guild</a></button>
+    <div class="div_space"></div>
     <button><a href="{{ site.url_zosmf_community }}" target="_blank">z/OSMF Community</a></button>
   </section>
 </div>
