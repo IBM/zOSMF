@@ -268,7 +268,6 @@ layout: default
     <div class="div_space"></div>
     <button><a href="{{ site.url_zosmf_cpm_knowledge_center }}" target="_blank">CP&M Knowledge Center</a></button>
     <div class="div_space"></div>
-    <button><a href="{{ site.url_zosmf_cpm_trial }}" target="_blank">CP&M Trial</a></button>
       <ul>
         <p><li>Other documentation:</li></p>
       </ul>
