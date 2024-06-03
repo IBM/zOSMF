@@ -5,6 +5,7 @@ layout: default
 <div class="greybackground">
   <section id="main_content" class="inner">
     <h1>News</h1>
+    <p><strong>Check out <a href="{{ site.url_zosmf_what_users_said }}" target="_blank">what users said</a> about z/OSMF 3.1 features.</strong></p>
     <p><strong>z/OSMF enhancements in 1H 2024 <a href="#" id="show-2024-1H" onclick="showDetails(this.id)">(Click for details)</a>:</strong></p>
       <div id="2024-1H" style="display: none">
         <ul>
@@ -16,9 +17,9 @@ layout: default
         <a href="#" id="hide-2024-1H" onclick="hideDetails(this.id)">Hide details.</a>
       </div>
     <p><strong>Check out <a href="{{ site.url_zosmf_guild_session }}" target="_blank">What’s NEW for z/OSMF 3.1 (Sep 2023)</a>.</strong></p>
-    <p><strong>z/OSMF Configuration Trial is online! A dedicated environment and step by step guide is ready for you at <a href="{{ site.url_zosmf_configuration_trial }}" target="_blank">here</a>.</strong></p>
     <a href="#" class="show-previous-news" id="show-previous-news" onclick="showPreNews()">Show previous news...</a>
     <div class="previous-news" id="previous-news" style="display: none">
+      <p><strong>z/OSMF Configuration Trial is online! A dedicated environment and step by step guide is ready for you at <a href="{{ site.url_zosmf_configuration_trial }}" target="_blank">here</a>.</strong></p>
       <p><strong>z/OSMF Community Guild was founded in Nov 2021. Welcome to participate <a href="{{ site.url_zosmf_community_guild }}" target="_blank">this guild</a> for discovering, learning and sharing about z/OSMF.</strong></p>
       <p><strong>z/OSMF enhancements in 2H 2022 <a href="#" id="show-2022-2H" onclick="showDetails(this.id)">(Click for details)</a>:</strong></p>
       <div id="2022-2H" style="display: none">
