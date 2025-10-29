@@ -6,6 +6,38 @@ layout: default
   <section id="main_content" class="inner">
     <h1>News</h1>
     <p><strong>Check out <a href="{{ site.url_zosmf_what_users_said }}" target="_blank">what users said</a> about z/OSMF 3.1 features.</strong></p>
+    <p><strong>z/OSMF enhancements in 4H 2024 <a href="#" id="show-2024-4H" onclick="showDetails(this.id)">(Click for details)</a>:</strong></p>
+    <div id="2024-4H" style="display: none">
+        <ul>
+          <p><li>z/OS Data Gatherer enhancements: 
+            z/OS Data Gatherer provides access to Monitor III data by means of the z/OS Data Gatherer Monitor III REST services. This allows applications to retrieve Monitor III data from a VSAM data set or local in-storage buffer via HTTP REST calls, described through the OpenAPI v3 specification. With the PTFs for APARs OA65072 and PH60122, this enhancement is available on z/OS 3.1.</li></p>
+          <p><li>z/OSMF Desktop enhancements
+            To help enable users to be more efficient when working with data sets and jobs, the following capabilities have been added: 
+            <ol>
+              <li>In the Data set and File Search tool, the informational attributes of the data sets (such as volume, track, record format, block size, etc.) are displayed </li>
+              <li>Users can save a sequential data set or a data set member with specified content types in the Data set and File Search tool</li>
+              <li>Users can compare the contents of uncatalogued data sets, change the volser and view the last modified time of a data set member or a Unix file in the comparison editor window</li>
+              <li>Additional information in the Job Output tool can be viewed. The attributes ‘submitted’ ‘started’, ‘ended’ date and time will be displayed to users for every job </li>
+            </ol>
+            With the PTF for APAR PH62589, this support is available on z/OS 3.1.
+          </li>
+          <li>With enhancement provided via APAR PH60035, z/OS users can package and send diagnostic data for dump incident with guided wizard and don't need to worry about password information in job log.For all the supported protocols FTP, SFTP, PDUU_FTP, and PDUU-HTTPS job output will not include sensitive information. </li>
+          <li>z/OSMF workflows have been enhanced to enable file template resolution during step execution. Workflows can be defined without file template content available upfront; users provide variable values for file template location at execution time, allowing dynamic retrieval of content. The workflow editor task now supports dynamic file template specification.</li>
+          </p>
+        </ul>
+        <a href="#" id="hide-2024-4H" onclick="hideDetails(this.id)">Hide details.</a>
+      </div>
+    <p><strong>z/OSMF enhancements in 2H 2024 <a href="#" id="show-2024-2H" onclick="showDetails(this.id)">(Click for details)</a>:</strong></p>
+    <div id="2024-2H" style="display: none">
+        <ul>
+          <p><li>Visual Data Set and Volume Comparison: Enhanced capability to visually compare data sets and volumes via the z/OSMF interface in IBM z/OS Change Tracker, allowing users to quickly identify member-level changes, additions, and deletions. This is delivered through APAR PH56939.</li></p>
+          <p><li>z/OSMF Software Update Enhancements: Allows users to select and install specific PTFs from a displayed list of received updates, improving user experience by avoiding manual input. Also, users can now filter which recommended PTFs are installed based on their criteria using SOURCEIDs. This were delivered with the PTF for APAR PH58221.</li></p>
+          <p><li>New REST API for SMPCSI Data Sets: Provides read access to data stored in SMPCSI, simplifying development by enabling easier access to this information without needing lower-level programming languages. Delivered via the APAR PH58221.</li></p>
+          <p><li>z/OSMF AICI Simulation Visualization: z/OSMF AICI task's enhanced visualization feature allows users to compare actual batch initiators managed by Workload Manager (WLM) with predicted values in simulation mode, facilitating evaluation of AI behavior and benefits. This is delivered through APAR PH56709.</li></p>
+          <p><li> z/OSMF WLM support for z/OS Container: Supports latest function level to configure performance goals for z/OS Container workloads delivered via APAR PH43496.</li></p>
+        </ul>
+        <a href="#" id="hide-2024-2H" onclick="hideDetails(this.id)">Hide details.</a>
+      </div>
     <p><strong>z/OSMF enhancements in 1H 2024 <a href="#" id="show-2024-1H" onclick="showDetails(this.id)">(Click for details)</a>:</strong></p>
       <div id="2024-1H" style="display: none">
         <ul>
