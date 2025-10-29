@@ -23,6 +23,7 @@ layout: default
           </li>
           <li>With enhancement provided via APAR PH60035, z/OS users can package and send diagnostic data for dump incident with guided wizard and don't need to worry about password information in job log.For all the supported protocols FTP, SFTP, PDUU_FTP, and PDUU-HTTPS job output will not include sensitive information. </li>
           <li>z/OSMF workflows have been enhanced to enable file template resolution during step execution. Workflows can be defined without file template content available upfront; users provide variable values for file template location at execution time, allowing dynamic retrieval of content. The workflow editor task now supports dynamic file template specification.</li>
+          <li>The APAR PH66694 provides enhanced Add Volume API in z/OSMF Storage management plugin. The Storage Group – Add Volume (POST) API in 3.1 has been enhanced with additional validation checks to enforce user restrictions and ensure compliance with defined standards.</li>
           </p>
         </ul>
         <a href="#" id="hide-2024-4H" onclick="hideDetails(this.id)">Hide details.</a>
