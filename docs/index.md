@@ -5,6 +5,69 @@ layout: default
 <div class="greybackground">
   <section id="main_content" class="inner">
     <h1>News</h1>
+    <p><strong>Check out the new 3.2 features in z/OSMF.</strong></p>
+      <p><strong>z/OSMF enhancements in 3H 2025 <a href="#" id="show-2025-3H" onclick="showDetails(this.id)">(Click for details)</a>:</strong></p>
+      <div id="2025-3H" style="display: none">
+        <ul>
+          <p>
+          <li>The APAR PH66821 delivered enhancement in z/OSMF Incident Log which can setup communication with CEA without having Common Information Model (CIM) as a broker. This initiative removes the CIM dependency with Incident Log Plugin.</li>
+          <li>CP policy upload via Firefox browser (issue since 2.5) was fixed. This was shipped via the APAR PH67654.</li>
+          <li>In z/OSMF WLM, the APAR PH66084 provided enhancements such as: <ol>
+            <li>New SMF loading workflow that allows to load SMF data from multiple datasets.</li>
+            <li>New Overview page that summarizes the most important findings and provides links to drill down to other pages</li>
+            <li>Redesigned the entire tool to match design of other IBM tools and websites</li>
+            <li>Improved and redesigned most charts</li>
+            <li>Introduces lots of findings and recommendations that will help users improve their service definition</li>
+          </ol>
+</li>
+          </p>
+        </ul>
+      <a href="#" id="hide-2025-3H" onclick="hideDetails(this.id)">Hide details.</a>
+    </div>
+    <p><strong>z/OSMF enhancements in 2H 2025 <a href="#" id="show-2025-2H" onclick="showDetails(this.id)">(Click for details)</a>:</strong></p>
+      <div id="2025-2H" style="display: none">
+        <ul>
+          <p>
+          <li>With APAR PH66327, z/OSMF support the deprecation of CF Flash Memory VFM exploitation and Dedicated GPs for CF images with MQ related structure sizing. Overflow SCM option will be removed when CF Level 26 is selected by user for MQ related structure sizing.</li>
+          </p>
+        </ul>
+      <a href="#" id="hide-2025-2H" onclick="hideDetails(this.id)">Hide details.</a>
+    </div>
+    <p><strong>z/OSMF enhancements in 1H 2025 <a href="#" id="show-2025-1H" onclick="showDetails(this.id)">(Click for details)</a>:</strong></p>
+      <div id="2025-1H" style="display: none">
+        <ul>
+          <p>
+          <li>z/OSMF Capacity Provisioning plugin can setup communication with Capacity Provisioning Manager (CPM) without having Common Information Model (CIM) as a broker. This initiative removes the CIM dependency with Capacity Provisioning Plugin.</li>
+          <li>z/OSMF Storage Management APIs:
+          <ol>
+            <li>New Management Class APIs: Introduced new Management Class, new ACS routines and new Base config APIs as part of the Storage Management enhancements.</li>
+            <li>Standardized Field Naming:The Storage Management APIs have been updated to use standardized camelCase field naming conventions across all constructs — including Data Class, Storage Class, Storage Group, and Volumes — ensuring consistency and ease of integration.</li></ol>
+          </li>
+          <li>z/OSMF Storage Management UI: The Storage Plugin UI introduced in version 3.2 is entirely new, laying the foundation for future enhancements. It includes an updated header and side-panel navigation, a comprehensive dashboard, and construct pages for Volumes, Data Class, Management Class, Storage Class, Storage Group, and ACS.
+          <ol>
+          <li>SCDS Management : Supports adding up to 10 SCDSs using the new Add SCDS functionality. This also includes options to edit short names and remove SCDSs.</li>
+          <li>Navigation and Linking for user experience: View all volumes within a Storage Group by selecting the number of volumes hyperlink.
+          </li>
+          <li>User Experience: Added tooltips for key fields and charts (e.g., table meter charts and detailed view charts) in the Volumes and Storage Group pages.Each construct page supports search, view details, export to CSV, column customization, refresh and filtering options. Last refreshed details are visible for each construct page and dashboard to keep track of the how old the data is.</li>
+          <li>Restore to defaults for column arrangement in each construct.</li>
+          <li>Reset all settings option is provided to reset all the user persisted data to the default.</li>
+          </ol>
+          </li>
+          <li>With the APAR PH66293, z/OSMF storage management plugin introduced UI enhancements like:
+          <ol>
+          <li>A feature to persist the pagination, SCDSes added to the view, column arrangements, selected SCDS tab etc in the constructs and dashboard across zOSMF.</li>
+          <li>A comprehensive help document is included and accessible via the “Help” hyperlink within the plugin and programming guide updates.</li>
+          <li>View details of a Storage Group directly from the Volumes page via storage group name hyperlink.</li>
+          <li>Update filter to add filter cards on top of table. </li>
+          <li>Message help plug-in with error codes in Storage Plugin</li>
+          </ol>
+          </li>
+          <li>With the APAR PH66796, Japanese language support for all panels/functions is provided.</li>
+          <li> The APAR PH66694 provides enhanced Add Volume API:The Storage Group – Add Volume (POST) API in 3.1 has been enhanced with additional validation checks to enforce user restrictions and ensure compliance with defined standards.</li>
+          </p>
+        </ul>
+      <a href="#" id="hide-2025-1H" onclick="hideDetails(this.id)">Hide details.</a>
+    </div>
     <p><strong>Check out <a href="{{ site.url_zosmf_what_users_said }}" target="_blank">what users said</a> about z/OSMF 3.1 features.</strong></p>
     <p><strong>z/OSMF enhancements in 4H 2024 <a href="#" id="show-2024-4H" onclick="showDetails(this.id)">(Click for details)</a>:</strong></p>
     <div id="2024-4H" style="display: none">
