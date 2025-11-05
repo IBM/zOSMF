@@ -5,9 +5,9 @@ layout: default
 <div class="greybackground">
   <section id="main_content" class="inner">
     <h1>News</h1>
-    <p><strong>Check out the new 3.2 features in z/OSMF.</strong></p>
-      <p><strong>z/OSMF enhancements in 3H 2025 <a href="#" id="show-2025-3H" onclick="showDetails(this.id)">(Click for details)</a>:</strong></p>
-      <div id="2025-3H" style="display: none">
+    <p><strong>Check out <a href="{{ site.url_zosmf_guild_session_new }}" target="_blank">What’s NEW for z/OSMF 3.2 (Sep 2025)</a>.</strong></p>
+      <p><strong>z/OSMF enhancements in 3.2 <a href="#" id="show-2025-32" onclick="showDetails(this.id)">(Click for details)</a>:</strong></p>
+      <div id="2025-32" style="display: none">
         <ul>
           <p>
           <li>The APAR PH66821 delivered enhancement in z/OSMF Incident Log which can setup communication with CEA without having Common Information Model (CIM) as a broker. This initiative removes the CIM dependency with Incident Log Plugin.</li>
@@ -20,23 +20,6 @@ layout: default
             <li>Introduces lots of findings and recommendations that will help users improve their service definition</li>
           </ol>
 </li>
-          </p>
-        </ul>
-      <a href="#" id="hide-2025-3H" onclick="hideDetails(this.id)">Hide details.</a>
-    </div>
-    <p><strong>z/OSMF enhancements in 2H 2025 <a href="#" id="show-2025-2H" onclick="showDetails(this.id)">(Click for details)</a>:</strong></p>
-      <div id="2025-2H" style="display: none">
-        <ul>
-          <p>
-          <li>With APAR PH66327, z/OSMF support the deprecation of CF Flash Memory VFM exploitation and Dedicated GPs for CF images with MQ related structure sizing. Overflow SCM option will be removed when CF Level 26 is selected by user for MQ related structure sizing.</li>
-          </p>
-        </ul>
-      <a href="#" id="hide-2025-2H" onclick="hideDetails(this.id)">Hide details.</a>
-    </div>
-    <p><strong>z/OSMF enhancements in 1H 2025 <a href="#" id="show-2025-1H" onclick="showDetails(this.id)">(Click for details)</a>:</strong></p>
-      <div id="2025-1H" style="display: none">
-        <ul>
-          <p>
           <li>z/OSMF Capacity Provisioning plugin can setup communication with Capacity Provisioning Manager (CPM) without having Common Information Model (CIM) as a broker. This initiative removes the CIM dependency with Capacity Provisioning Plugin.</li>
           <li>z/OSMF Storage Management APIs:
           <ol>
@@ -66,11 +49,22 @@ layout: default
           <li> The APAR PH66694 provides enhanced Add Volume API:The Storage Group – Add Volume (POST) API in 3.1 has been enhanced with additional validation checks to enforce user restrictions and ensure compliance with defined standards.</li>
           </p>
         </ul>
+      <a href="#" id="hide-2025-32" onclick="hideDetails(this.id)">Hide details.</a>
+    </div>
+    <a href="#" class="show-previous-news" id="show-previous-news" onclick="showPreNews()">Show previous news...</a>
+    <div class="previous-news" id="previous-news" style="display: none">
+          <p><strong>Check out <a href="{{ site.url_zosmf_what_users_said }}" target="_blank">what users said</a> about z/OSMF 3.1 features.</strong></p>
+     <p><strong>z/OSMF enhancements in 1H 2025 <a href="#" id="show-2025-1H" onclick="showDetails(this.id)">(Click for details)</a>:</strong></p>
+      <div id="2025-1H" style="display: none">
+        <ul>
+          <p>
+          <li>With APAR PH66327, z/OSMF support the deprecation of CF Flash Memory VFM exploitation and Dedicated GPs for CF images with MQ related structure sizing. Overflow SCM option will be removed when CF Level 26 is selected by user for MQ related structure sizing.</li>
+          </p>
+        </ul>
       <a href="#" id="hide-2025-1H" onclick="hideDetails(this.id)">Hide details.</a>
     </div>
-    <p><strong>Check out <a href="{{ site.url_zosmf_what_users_said }}" target="_blank">what users said</a> about z/OSMF 3.1 features.</strong></p>
-    <p><strong>z/OSMF enhancements in 4H 2024 <a href="#" id="show-2024-4H" onclick="showDetails(this.id)">(Click for details)</a>:</strong></p>
-    <div id="2024-4H" style="display: none">
+    <p><strong>z/OSMF enhancements in 4Q 2024 <a href="#" id="show-2024-4Q" onclick="showDetails(this.id)">(Click for details)</a>:</strong></p>
+    <div id="2024-4Q" style="display: none">
         <ul>
           <p><li>z/OS Data Gatherer enhancements: 
             z/OS Data Gatherer provides access to Monitor III data by means of the z/OS Data Gatherer Monitor III REST services. This allows applications to retrieve Monitor III data from a VSAM data set or local in-storage buffer via HTTP REST calls, described through the OpenAPI v3 specification. With the PTFs for APARs OA65072 and PH60122, this enhancement is available on z/OS 3.1.</li></p>
@@ -89,10 +83,10 @@ layout: default
           <li>The APAR PH66694 provides enhanced Add Volume API in z/OSMF Storage management plugin. The Storage Group – Add Volume (POST) API in 3.1 has been enhanced with additional validation checks to enforce user restrictions and ensure compliance with defined standards.</li>
           </p>
         </ul>
-        <a href="#" id="hide-2024-4H" onclick="hideDetails(this.id)">Hide details.</a>
+        <a href="#" id="hide-2024-4Q" onclick="hideDetails(this.id)">Hide details.</a>
       </div>
-    <p><strong>z/OSMF enhancements in 2H 2024 <a href="#" id="show-2024-2H" onclick="showDetails(this.id)">(Click for details)</a>:</strong></p>
-    <div id="2024-2H" style="display: none">
+    <p><strong>z/OSMF enhancements in 2Q 2024 <a href="#" id="show-2024-2Q" onclick="showDetails(this.id)">(Click for details)</a>:</strong></p>
+    <div id="2024-2Q" style="display: none">
         <ul>
           <p><li>Visual Data Set and Volume Comparison: Enhanced capability to visually compare data sets and volumes via the z/OSMF interface in IBM z/OS Change Tracker, allowing users to quickly identify member-level changes, additions, and deletions. This is delivered through APAR PH56939.</li></p>
           <p><li>z/OSMF Software Update Enhancements: Allows users to select and install specific PTFs from a displayed list of received updates, improving user experience by avoiding manual input. Also, users can now filter which recommended PTFs are installed based on their criteria using SOURCEIDs. This were delivered with the PTF for APAR PH58221.</li></p>
@@ -100,7 +94,7 @@ layout: default
           <p><li>z/OSMF AICI Simulation Visualization: z/OSMF AICI task's enhanced visualization feature allows users to compare actual batch initiators managed by Workload Manager (WLM) with predicted values in simulation mode, facilitating evaluation of AI behavior and benefits. This is delivered through APAR PH56709.</li></p>
           <p><li> z/OSMF WLM support for z/OS Container: Supports latest function level to configure performance goals for z/OS Container workloads delivered via APAR PH43496.</li></p>
         </ul>
-        <a href="#" id="hide-2024-2H" onclick="hideDetails(this.id)">Hide details.</a>
+        <a href="#" id="hide-2024-2Q" onclick="hideDetails(this.id)">Hide details.</a>
       </div>
     <p><strong>z/OSMF enhancements in 1H 2024 <a href="#" id="show-2024-1H" onclick="showDetails(this.id)">(Click for details)</a>:</strong></p>
       <div id="2024-1H" style="display: none">
@@ -113,8 +107,6 @@ layout: default
         <a href="#" id="hide-2024-1H" onclick="hideDetails(this.id)">Hide details.</a>
       </div>
     <p><strong>Check out <a href="{{ site.url_zosmf_guild_session }}" target="_blank">What’s NEW for z/OSMF 3.1 (Sep 2023)</a>.</strong></p>
-    <a href="#" class="show-previous-news" id="show-previous-news" onclick="showPreNews()">Show previous news...</a>
-    <div class="previous-news" id="previous-news" style="display: none">
       <p><strong>z/OSMF Configuration Trial is online! A dedicated environment and step by step guide is ready for you at <a href="{{ site.url_zosmf_configuration_trial }}" target="_blank">here</a>.</strong></p>
       <p><strong>z/OSMF Community Guild was founded in Nov 2021. Welcome to participate <a href="{{ site.url_zosmf_community_guild }}" target="_blank">this guild</a> for discovering, learning and sharing about z/OSMF.</strong></p>
       <p><strong>z/OSMF enhancements in 2H 2022 <a href="#" id="show-2022-2H" onclick="showDetails(this.id)">(Click for details)</a>:</strong></p>
