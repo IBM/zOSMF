@@ -5,7 +5,97 @@ layout: default
 <div class="greybackground">
   <section id="main_content" class="inner">
     <h1>News</h1>
-    <p><strong>Check out <a href="{{ site.url_zosmf_what_users_said }}" target="_blank">what users said</a> about z/OSMF 3.1 features.</strong></p>
+    <p><strong>Check out <a href="{{ site.url_zosmf_guild_session_new }}" target="_blank">What’s NEW for z/OSMF 3.2 (Sep 2025)</a>.</strong></p>
+      <p><strong>z/OSMF enhancements in 3.2 <a href="#" id="show-2025-32" onclick="showDetails(this.id)">(Click for details)</a>:</strong></p>
+      <div id="2025-32" style="display: none">
+        <ul>
+          <p>
+          <li>The APAR PH66821 delivered enhancement in z/OSMF Incident Log which can setup communication with CEA without having Common Information Model (CIM) as a broker. This initiative removes the CIM dependency with Incident Log Plugin.</li>
+          <li>CP policy upload via Firefox browser (issue since 2.5) was fixed. This was shipped via the APAR PH67654.</li>
+          <li>In z/OSMF WLM, the APAR PH66084 provided enhancements such as: <ol>
+            <li>New SMF loading workflow that allows to load SMF data from multiple datasets.</li>
+            <li>New Overview page that summarizes the most important findings and provides links to drill down to other pages</li>
+            <li>Redesigned the entire tool to match design of other IBM tools and websites</li>
+            <li>Improved and redesigned most charts</li>
+            <li>Introduces lots of findings and recommendations that will help users improve their service definition</li>
+          </ol>
+</li>
+          <li>z/OSMF Capacity Provisioning plugin can setup communication with Capacity Provisioning Manager (CPM) without having Common Information Model (CIM) as a broker. This initiative removes the CIM dependency with Capacity Provisioning Plugin.</li>
+          <li>z/OSMF Storage Management APIs:
+          <ol>
+            <li>New Management Class APIs: Introduced new Management Class, new ACS routines and new Base config APIs as part of the Storage Management enhancements.</li>
+            <li>Standardized Field Naming:The Storage Management APIs have been updated to use standardized camelCase field naming conventions across all constructs — including Data Class, Storage Class, Storage Group, and Volumes — ensuring consistency and ease of integration.</li></ol>
+          </li>
+          <li>z/OSMF Storage Management UI: The Storage Plugin UI introduced in version 3.2 is entirely new, laying the foundation for future enhancements. It includes an updated header and side-panel navigation, a comprehensive dashboard, and construct pages for Volumes, Data Class, Management Class, Storage Class, Storage Group, and ACS.
+          <ol>
+          <li>SCDS Management : Supports adding up to 10 SCDSs using the new Add SCDS functionality. This also includes options to edit short names and remove SCDSs.</li>
+          <li>Navigation and Linking for user experience: View all volumes within a Storage Group by selecting the number of volumes hyperlink.
+          </li>
+          <li>User Experience: Added tooltips for key fields and charts (e.g., table meter charts and detailed view charts) in the Volumes and Storage Group pages.Each construct page supports search, view details, export to CSV, column customization, refresh and filtering options. Last refreshed details are visible for each construct page and dashboard to keep track of the how old the data is.</li>
+          <li>Restore to defaults for column arrangement in each construct.</li>
+          <li>Reset all settings option is provided to reset all the user persisted data to the default.</li>
+          </ol>
+          </li>
+          <li>With the APAR PH66293, z/OSMF storage management plugin introduced UI enhancements like:
+          <ol>
+          <li>A feature to persist the pagination, SCDSes added to the view, column arrangements, selected SCDS tab etc in the constructs and dashboard across zOSMF.</li>
+          <li>A comprehensive help document is included and accessible via the “Help” hyperlink within the plugin and programming guide updates.</li>
+          <li>View details of a Storage Group directly from the Volumes page via storage group name hyperlink.</li>
+          <li>Update filter to add filter cards on top of table. </li>
+          <li>Message help plug-in with error codes in Storage Plugin</li>
+          </ol>
+          </li>
+          <li>With the APAR PH66796, Japanese language support for all panels/functions is provided.</li>
+          <li> The APAR PH66694 provides enhanced Add Volume API:The Storage Group – Add Volume (POST) API in 3.1 has been enhanced with additional validation checks to enforce user restrictions and ensure compliance with defined standards.</li>
+          </p>
+        </ul>
+      <a href="#" id="hide-2025-32" onclick="hideDetails(this.id)">Hide details.</a>
+    </div>
+    <a href="#" class="show-previous-news" id="show-previous-news" onclick="showPreNews()">Show previous news...</a>
+    <div class="previous-news" id="previous-news" style="display: none">
+          <p><strong>Check out <a href="{{ site.url_zosmf_what_users_said }}" target="_blank">what users said</a> about z/OSMF 3.1 features.</strong></p>
+     <p><strong>z/OSMF enhancements in 1H 2025 <a href="#" id="show-2025-1H" onclick="showDetails(this.id)">(Click for details)</a>:</strong></p>
+      <div id="2025-1H" style="display: none">
+        <ul>
+          <p>
+          <li>With APAR PH66327, z/OSMF support the deprecation of CF Flash Memory VFM exploitation and Dedicated GPs for CF images with MQ related structure sizing. Overflow SCM option will be removed when CF Level 26 is selected by user for MQ related structure sizing.</li>
+          </p>
+        </ul>
+      <a href="#" id="hide-2025-1H" onclick="hideDetails(this.id)">Hide details.</a>
+    </div>
+    <p><strong>z/OSMF enhancements in 4Q 2024 <a href="#" id="show-2024-4Q" onclick="showDetails(this.id)">(Click for details)</a>:</strong></p>
+    <div id="2024-4Q" style="display: none">
+        <ul>
+          <p><li>z/OS Data Gatherer enhancements: 
+            z/OS Data Gatherer provides access to Monitor III data by means of the z/OS Data Gatherer Monitor III REST services. This allows applications to retrieve Monitor III data from a VSAM data set or local in-storage buffer via HTTP REST calls, described through the OpenAPI v3 specification. With the PTFs for APARs OA65072 and PH60122, this enhancement is available on z/OS 3.1.</li></p>
+          <p><li>z/OSMF Desktop enhancements
+            To help enable users to be more efficient when working with data sets and jobs, the following capabilities have been added: 
+            <ol>
+              <li>In the Data set and File Search tool, the informational attributes of the data sets (such as volume, track, record format, block size, etc.) are displayed </li>
+              <li>Users can save a sequential data set or a data set member with specified content types in the Data set and File Search tool</li>
+              <li>Users can compare the contents of uncatalogued data sets, change the volser and view the last modified time of a data set member or a Unix file in the comparison editor window</li>
+              <li>Additional information in the Job Output tool can be viewed. The attributes ‘submitted’ ‘started’, ‘ended’ date and time will be displayed to users for every job </li>
+            </ol>
+            With the PTF for APAR PH62589, this support is available on z/OS 3.1.
+          </li>
+          <li>With enhancement provided via APAR PH60035, z/OS users can package and send diagnostic data for dump incident with guided wizard and don't need to worry about password information in job log.For all the supported protocols FTP, SFTP, PDUU_FTP, and PDUU-HTTPS job output will not include sensitive information. </li>
+          <li>z/OSMF workflows have been enhanced to enable file template resolution during step execution. Workflows can be defined without file template content available upfront; users provide variable values for file template location at execution time, allowing dynamic retrieval of content. The workflow editor task now supports dynamic file template specification.</li>
+          <li>The APAR PH66694 provides enhanced Add Volume API in z/OSMF Storage management plugin. The Storage Group – Add Volume (POST) API in 3.1 has been enhanced with additional validation checks to enforce user restrictions and ensure compliance with defined standards.</li>
+          </p>
+        </ul>
+        <a href="#" id="hide-2024-4Q" onclick="hideDetails(this.id)">Hide details.</a>
+      </div>
+    <p><strong>z/OSMF enhancements in 2Q 2024 <a href="#" id="show-2024-2Q" onclick="showDetails(this.id)">(Click for details)</a>:</strong></p>
+    <div id="2024-2Q" style="display: none">
+        <ul>
+          <p><li>Visual Data Set and Volume Comparison: Enhanced capability to visually compare data sets and volumes via the z/OSMF interface in IBM z/OS Change Tracker, allowing users to quickly identify member-level changes, additions, and deletions. This is delivered through APAR PH56939.</li></p>
+          <p><li>z/OSMF Software Update Enhancements: Allows users to select and install specific PTFs from a displayed list of received updates, improving user experience by avoiding manual input. Also, users can now filter which recommended PTFs are installed based on their criteria using SOURCEIDs. This were delivered with the PTF for APAR PH58221.</li></p>
+          <p><li>New REST API for SMPCSI Data Sets: Provides read access to data stored in SMPCSI, simplifying development by enabling easier access to this information without needing lower-level programming languages. Delivered via the APAR PH58221.</li></p>
+          <p><li>z/OSMF AICI Simulation Visualization: z/OSMF AICI task's enhanced visualization feature allows users to compare actual batch initiators managed by Workload Manager (WLM) with predicted values in simulation mode, facilitating evaluation of AI behavior and benefits. This is delivered through APAR PH56709.</li></p>
+          <p><li> z/OSMF WLM support for z/OS Container: Supports latest function level to configure performance goals for z/OS Container workloads delivered via APAR PH43496.</li></p>
+        </ul>
+        <a href="#" id="hide-2024-2Q" onclick="hideDetails(this.id)">Hide details.</a>
+      </div>
     <p><strong>z/OSMF enhancements in 1H 2024 <a href="#" id="show-2024-1H" onclick="showDetails(this.id)">(Click for details)</a>:</strong></p>
       <div id="2024-1H" style="display: none">
         <ul>
@@ -17,8 +107,6 @@ layout: default
         <a href="#" id="hide-2024-1H" onclick="hideDetails(this.id)">Hide details.</a>
       </div>
     <p><strong>Check out <a href="{{ site.url_zosmf_guild_session }}" target="_blank">What’s NEW for z/OSMF 3.1 (Sep 2023)</a>.</strong></p>
-    <a href="#" class="show-previous-news" id="show-previous-news" onclick="showPreNews()">Show previous news...</a>
-    <div class="previous-news" id="previous-news" style="display: none">
       <p><strong>z/OSMF Configuration Trial is online! A dedicated environment and step by step guide is ready for you at <a href="{{ site.url_zosmf_configuration_trial }}" target="_blank">here</a>.</strong></p>
       <p><strong>z/OSMF Community Guild was founded in Nov 2021. Welcome to participate <a href="{{ site.url_zosmf_community_guild }}" target="_blank">this guild</a> for discovering, learning and sharing about z/OSMF.</strong></p>
       <p><strong>z/OSMF enhancements in 2H 2022 <a href="#" id="show-2022-2H" onclick="showDetails(this.id)">(Click for details)</a>:</strong></p>
