@@ -54,6 +54,33 @@ layout: default
     <a href="#" class="show-previous-news" id="show-previous-news" onclick="showPreNews()">Show previous news...</a>
     <div class="previous-news" id="previous-news" style="display: none">
           <p><strong>Check out <a href="{{ site.url_zosmf_what_users_said }}" target="_blank">what users said</a> about z/OSMF 3.1 features.</strong></p>
+      <p><strong>z/OSMF enhancements in 2Q 2026 <a href="#" id="show-2026-2Q" onclick="showDetails(this.id)">(Click for details)</a>:</strong></p>
+      <div id="2026-2Q" style="display: none">
+        <ul>
+          <p>
+          <li>With APAR PH69857, z/OSMF's runtime foundation is upgraded to Jakarta EE 10, migrating all APIs and deployment descriptors from Java EE (javax.*) to Jakarta EE (jakarta.*) namespaces and updating core libraries across all subprojects to support modern Open Liberty features.</li>
+          </p>
+        </ul>
+        <a href="#" id="hide-2026-2Q" onclick="hideDetails(this.id)">Hide details.</a>
+      </div>
+      <p><strong>z/OSMF enhancements in 1H 2026 <a href="#" id="show-2026-1H" onclick="showDetails(this.id)">(Click for details)</a>:</strong></p>
+      <div id="2026-1H" style="display: none">
+        <ul>
+          <p>
+          <li>With APAR PH70199, CFRM and checkpoint support for 4096 CF structures is introduced in the Sysplex Management plugin in z/OSMF. When creating or updating a Couple Data Set (CDS) in CFRM, a new validation verifies that the version is 12 or greater when the provided structure count exceeds 2048.</li>
+          </p>
+        </ul>
+        <a href="#" id="hide-2026-1H" onclick="hideDetails(this.id)">Hide details.</a>
+      </div>
+      <p><strong>z/OSMF enhancements in 4Q 2025 <a href="#" id="show-2025-4Q" onclick="showDetails(this.id)">(Click for details)</a>:</strong></p>
+      <div id="2025-4Q" style="display: none">
+        <ul>
+          <p>
+          <li>With APAR PH60518, the z/OSMF Sysplex Management plugin introduces support for a non-disruptive CF Structure Copy Process for Lock Structures, providing the z/OS software support associated with Metis hardware LI 0U7 of the same name.</li>
+          </p>
+        </ul>
+        <a href="#" id="hide-2025-4Q" onclick="hideDetails(this.id)">Hide details.</a>
+      </div>
      <p><strong>z/OSMF enhancements in 1H 2025 <a href="#" id="show-2025-1H" onclick="showDetails(this.id)">(Click for details)</a>:</strong></p>
       <div id="2025-1H" style="display: none">
         <ul>
