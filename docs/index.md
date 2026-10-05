@@ -10,6 +10,9 @@ layout: default
       <div id="2025-32" style="display: none">
         <ul>
           <p>
+          <li>With APAR PH69857, z/OSMF's runtime foundation is upgraded to Jakarta EE 10, migrating all APIs and deployment descriptors from Java EE (javax.*) to Jakarta EE (jakarta.*) namespaces and updating core libraries across all subprojects to support modern Open Liberty features.</li>
+          <li>With APAR PH70199, CFRM and checkpoint support for 4096 CF structures is introduced in the Sysplex Management plugin in z/OSMF. When creating or updating a Couple Data Set (CDS) in CFRM, a new validation verifies that the version is 12 or greater when the provided structure count exceeds 2048.</li>
+          <li>With APAR PH60518, the z/OSMF Sysplex Management plugin introduces support for a non-disruptive CF Structure Copy Process for Lock Structures, providing the z/OS software support associated with Metis hardware LI 0U7 of the same name.</li>
           <li>The APAR PH66821 delivered enhancement in z/OSMF Incident Log which can setup communication with CEA without having Common Information Model (CIM) as a broker. This initiative removes the CIM dependency with Incident Log Plugin.</li>
           <li>CP policy upload via Firefox browser (issue since 2.5) was fixed. This was shipped via the APAR PH67654.</li>
           <li>In z/OSMF WLM, the APAR PH66084 provided enhancements such as: <ol>
