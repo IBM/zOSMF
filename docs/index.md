@@ -10,6 +10,10 @@ layout: default
       <div id="2025-32" style="display: none">
         <ul>
           <p>
+          <li>With APAR PH69857, z/OSMF's runtime foundation is upgraded to Jakarta EE 10, migrating all APIs and deployment descriptors from Java EE (javax.*) to Jakarta EE (jakarta.*) namespaces and updating core libraries across all subprojects to support modern Open Liberty features.</li>
+          <li>With APAR PH70199, CFRM and checkpoint support for 4096 CF structures is introduced in the Sysplex Management plugin in z/OSMF. When creating or updating a Couple Data Set (CDS) in CFRM, a new validation verifies that the version is 12 or greater when the provided structure count exceeds 2048.</li>
+          <li>With APAR PH60518, the z/OSMF Sysplex Management plugin introduces support for a non-disruptive CF Structure Copy Process for Lock Structures, providing the z/OS software support associated with Metis hardware LI 0U7 of the same name.</li>
+          <li>With APAR PH68417, the z/OSMF Storage Management plugin introduces comprehensive SMS configuration comparison capabilities, including Active vs. SCDS and SCDS vs. SCDS comparisons. The function provides summarized difference reporting showing the number of differing constructs and constructs unique to each configuration, along with field-level difference highlighting for all non-ACS construct types, with options to display only differing fields or all fields. ACS routine comparison is supported through direct source file (PDS/PDSE) comparisons across SCDSs and between Active and SCDS configurations. In addition, Version 2 SCDS support enables extraction of saved ACS source from the SCDS and supports ACS comparisons including Extracted ACS vs. Source File and Extracted ACS vs. Extracted ACS.</li>
           <li>The APAR PH66821 delivered enhancement in z/OSMF Incident Log which can setup communication with CEA without having Common Information Model (CIM) as a broker. This initiative removes the CIM dependency with Incident Log Plugin.</li>
           <li>CP policy upload via Firefox browser (issue since 2.5) was fixed. This was shipped via the APAR PH67654.</li>
           <li>In z/OSMF WLM, the APAR PH66084 provided enhancements such as: <ol>
@@ -54,6 +58,34 @@ layout: default
     <a href="#" class="show-previous-news" id="show-previous-news" onclick="showPreNews()">Show previous news...</a>
     <div class="previous-news" id="previous-news" style="display: none">
           <p><strong>Check out <a href="{{ site.url_zosmf_what_users_said }}" target="_blank">what users said</a> about z/OSMF 3.1 features.</strong></p>
+      <p><strong>z/OSMF enhancements in 2Q 2026 <a href="#" id="show-2026-2Q" onclick="showDetails(this.id)">(Click for details)</a>:</strong></p>
+      <div id="2026-2Q" style="display: none">
+        <ul>
+          <p>
+          <li>With APAR PH69857, z/OSMF's runtime foundation is upgraded to Jakarta EE 10, migrating all APIs and deployment descriptors from Java EE (javax.*) to Jakarta EE (jakarta.*) namespaces and updating core libraries across all subprojects to support modern Open Liberty features.</li>
+          </p>
+        </ul>
+        <a href="#" id="hide-2026-2Q" onclick="hideDetails(this.id)">Hide details.</a>
+      </div>
+      <p><strong>z/OSMF enhancements in 1H 2026 <a href="#" id="show-2026-1H" onclick="showDetails(this.id)">(Click for details)</a>:</strong></p>
+      <div id="2026-1H" style="display: none">
+        <ul>
+          <p>
+          <li>With APAR PH70199, CFRM and checkpoint support for 4096 CF structures is introduced in the Sysplex Management plugin in z/OSMF. When creating or updating a Couple Data Set (CDS) in CFRM, a new validation verifies that the version is 12 or greater when the provided structure count exceeds 2048.</li>
+          <li>With APAR PH68417, the z/OSMF Storage Management plugin introduces SMS construct comparison capabilities, including Active vs. SCDS and SCDS vs. SCDS configuration comparisons with summarized difference reporting, field-level diff highlighting for all construct types, ACS routine source file comparison across SCDSs, and Version 2 SCDS ACS comparisons including Extracted ACS vs. Source File and Extracted ACS vs. Extracted ACS.</li>
+          </p>
+        </ul>
+        <a href="#" id="hide-2026-1H" onclick="hideDetails(this.id)">Hide details.</a>
+      </div>
+      <p><strong>z/OSMF enhancements in 4Q 2025 <a href="#" id="show-2025-4Q" onclick="showDetails(this.id)">(Click for details)</a>:</strong></p>
+      <div id="2025-4Q" style="display: none">
+        <ul>
+          <p>
+          <li>With APAR PH60518, the z/OSMF Sysplex Management plugin introduces support for a non-disruptive CF Structure Copy Process for Lock Structures, providing the z/OS software support associated with Metis hardware LI 0U7 of the same name.</li>
+          </p>
+        </ul>
+        <a href="#" id="hide-2025-4Q" onclick="hideDetails(this.id)">Hide details.</a>
+      </div>
      <p><strong>z/OSMF enhancements in 1H 2025 <a href="#" id="show-2025-1H" onclick="showDetails(this.id)">(Click for details)</a>:</strong></p>
       <div id="2025-1H" style="display: none">
         <ul>
