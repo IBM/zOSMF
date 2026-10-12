@@ -308,67 +308,67 @@ layout: default
     <p>IBM provides a series of tutorial videos and online courses to help you learn more about specific z/OSMF tasks. For all z/OSMF videos, please refer to the <a href="{{ site.url_zosmf_channel }}" target="_blank">z/OSMF channel</a> of IBM MediaCenter.</p>
     <div class="div_img">
       <div>
-        <p><a href="{{ site.url_video_zosmf_dataset_ussfile }}" target="_blank"><img src="{{ site.img_video_zosmf_dataset_ussfile }}"/></a></p>
+        <p><a href="{{ site.url_video_zosmf_dataset_ussfile }}" target="_blank"><img src="{{ site.img_video_zosmf_dataset_ussfile }}" alt="{{ site.title_video_zosmf_dataset_ussfile }}"/></a></p>
         <p><a href="{{ site.url_video_zosmf_dataset_ussfile }}" target="_blank">{{ site.title_video_zosmf_dataset_ussfile }}</a></p>
       </div>
       <div>
-        <p><a href="{{ site.url_video_zosmf_import_manager }}" target="_blank"><img src="{{ site.img_video_zosmf_import_manager }}"/></a></p>
+        <p><a href="{{ site.url_video_zosmf_import_manager }}" target="_blank"><img src="{{ site.img_video_zosmf_import_manager }}" alt="{{ site.title_video_zosmf_import_manager }}"/></a></p>
         <p><a href="{{ site.url_video_zosmf_import_manager }}" target="_blank">{{ site.title_video_zosmf_import_manager }}</a></p>
       </div>
       <div>
-        <p><a href="{{ site.url_video_zosmf_workflows }}" target="_blank"><img src="{{ site.img_video_zosmf_workflows }}"/></a></p>
+        <p><a href="{{ site.url_video_zosmf_workflows }}" target="_blank"><img src="{{ site.img_video_zosmf_workflows }}" alt="{{ site.title_video_zosmf_workflows }}"/></a></p>
         <p><a href="{{ site.url_video_zosmf_workflows }}" target="_blank">{{ site.title_video_zosmf_workflows }}</a></p>
       </div>
       <div>
-        <p><a href="{{ site.url_video_zosmf_capacity_provisioning }}" target="_blank"><img src="{{ site.img_video_zosmf_capacity_provisioning }}"/></a></p>
+        <p><a href="{{ site.url_video_zosmf_capacity_provisioning }}" target="_blank"><img src="{{ site.img_video_zosmf_capacity_provisioning }}" alt="{{ site.title_video_zosmf_capacity_provisioning }}"/></a></p>
         <p><a href="{{ site.url_video_zosmf_capacity_provisioning }}" target="_blank">{{ site.title_video_zosmf_capacity_provisioning }}</a></p>
       </div>
       <div>
-        <p><a href="{{ site.url_video_zosmf_software_services }}" target="_blank"><img src="{{ site.img_video_zosmf_software_services }}"/></a></p>
+        <p><a href="{{ site.url_video_zosmf_software_services }}" target="_blank"><img src="{{ site.img_video_zosmf_software_services }}" alt="{{ site.title_video_zosmf_software_services }}"/></a></p>
         <p><a href="{{ site.url_video_zosmf_software_services }}" target="_blank">{{ site.title_video_zosmf_software_services }}</a></p>
       </div>
       <div>
-        <p><a href="{{ site.url_video_zosmf_zos_operator_consoles }}" target="_blank"><img src="{{ site.img_video_zosmf_zos_operator_consoles }}"/></a></p>
+        <p><a href="{{ site.url_video_zosmf_zos_operator_consoles }}" target="_blank"><img src="{{ site.img_video_zosmf_zos_operator_consoles }}" alt="{{ site.title_video_zosmf_zos_operator_consoles }}"/></a></p>
         <p><a href="{{ site.url_video_zosmf_zos_operator_consoles }}" target="_blank">{{ site.title_video_zosmf_zos_operator_consoles }}</a></p>
       </div>
       <div>
-        <p><a href="{{ site.url_video_zosmf_workload_management }}" target="_blank"><img src="{{ site.img_video_zosmf_workload_management }}"/></a></p>
+        <p><a href="{{ site.url_video_zosmf_workload_management }}" target="_blank"><img src="{{ site.img_video_zosmf_workload_management }}" alt="{{ site.title_video_zosmf_workload_management }}"/></a></p>
         <p><a href="{{ site.url_video_zosmf_workload_management }}" target="_blank">{{ site.title_video_zosmf_workload_management }}</a></p>
       </div>
       <div>
-        <p><a href="{{ site.url_video_zosmf_incident_log }}" target="_blank"><img src="{{ site.img_video_zosmf_incident_log }}"/></a></p>
+        <p><a href="{{ site.url_video_zosmf_incident_log }}" target="_blank"><img src="{{ site.img_video_zosmf_incident_log }}" alt="{{ site.title_video_zosmf_incident_log }}"/></a></p>
         <p><a href="{{ site.url_video_zosmf_incident_log }}" target="_blank">{{ site.title_video_zosmf_incident_log }}</a></p>
       </div>
       <div>
-        <p><a href="{{ site.url_video_zosmf_sysplex_management }}" target="_blank"><img src="{{ site.img_video_zosmf_sysplex_management }}"/></a></p>
+        <p><a href="{{ site.url_video_zosmf_sysplex_management }}" target="_blank"><img src="{{ site.img_video_zosmf_sysplex_management }}" alt="{{ site.title_video_zosmf_sysplex_management }}"/></a></p>
         <p><a href="{{ site.url_video_zosmf_sysplex_management }}" target="_blank">{{ site.title_video_zosmf_sysplex_management }}</a></p>
       </div>
       <div>
-        <p><a href="{{ site.url_video_zosmf_security_configuration_assistant }}" target="_blank"><img src="{{ site.img_video_zosmf_security_configuration_assistant }}"/></a></p>
+        <p><a href="{{ site.url_video_zosmf_security_configuration_assistant }}" target="_blank"><img src="{{ site.img_video_zosmf_security_configuration_assistant }}" alt="{{ site.title_video_zosmf_security_configuration_assistant }}"/></a></p>
         <p><a href="{{ site.url_video_zosmf_security_configuration_assistant }}" target="_blank">{{ site.title_video_zosmf_security_configuration_assistant }}</a></p>
       </div>
       <div>
-        <p><a href="{{ site.url_video_zosmf_network_configuration_assistant }}" target="_blank"><img src="{{ site.img_video_zosmf_network_configuration_assistant }}"/></a></p>
+        <p><a href="{{ site.url_video_zosmf_network_configuration_assistant }}" target="_blank"><img src="{{ site.img_video_zosmf_network_configuration_assistant }}" alt="{{ site.title_video_zosmf_network_configuration_assistant }}"/></a></p>
         <p><a href="{{ site.url_video_zosmf_network_configuration_assistant }}" target="_blank">{{ site.title_video_zosmf_network_configuration_assistant }}</a></p>
       </div>
       <div>
-        <p><a href="{{ site.url_video_zosmf_zert_network_analyzer }}" target="_blank"><img src="{{ site.img_video_zosmf_zert_network_analyzer }}"/></a></p>
+        <p><a href="{{ site.url_video_zosmf_zert_network_analyzer }}" target="_blank"><img src="{{ site.img_video_zosmf_zert_network_analyzer }}" alt="{{ site.title_video_zosmf_zert_network_analyzer }}"/></a></p>
         <p><a href="{{ site.url_video_zosmf_zert_network_analyzer }}" target="_blank">{{ site.title_video_zosmf_zert_network_analyzer }}</a></p>
       </div>
       <div>
-        <p><a href="{{ site.url_video_zosmf_rest_api_tso }}" target="_blank"><img src="{{ site.img_video_zosmf_rest_api_tso }}"/></a></p>
+        <p><a href="{{ site.url_video_zosmf_rest_api_tso }}" target="_blank"><img src="{{ site.img_video_zosmf_rest_api_tso }}" alt="{{ site.title_video_zosmf_rest_api_tso }}"/></a></p>
         <p><a href="{{ site.url_video_zosmf_rest_api_tso }}" target="_blank">{{ site.title_video_zosmf_rest_api_tso }}</a></p>
       </div>
       <div>
-        <p><a href="{{ site.url_video_zosmf_rest_api_dataset }}" target="_blank"><img src="{{ site.img_video_zosmf_rest_api_dataset }}"/></a></p>
+        <p><a href="{{ site.url_video_zosmf_rest_api_dataset }}" target="_blank"><img src="{{ site.img_video_zosmf_rest_api_dataset }}" alt="{{ site.title_video_zosmf_rest_api_dataset }}"/></a></p>
         <p><a href="{{ site.url_video_zosmf_rest_api_dataset }}" target="_blank">{{ site.title_video_zosmf_rest_api_dataset }}</a></p>
       </div>
       <div>
-        <p><a href="{{ site.url_video_zosmf_ansible_collection }}" target="_blank"><img src="{{ site.img_video_zosmf_ansible_collection }}"/></a></p>
+        <p><a href="{{ site.url_video_zosmf_ansible_collection }}" target="_blank"><img src="{{ site.img_video_zosmf_ansible_collection }}" alt="{{ site.title_video_zosmf_ansible_collection }}"/></a></p>
         <p><a href="{{ site.url_video_zosmf_ansible_collection }}" target="_blank">{{ site.title_video_zosmf_ansible_collection }}</a></p>
       </div>
       <div>
-        <p><a href="{{ site.url_video_zosmf_management_services_catalog }}" target="_blank"><img src="{{ site.img_video_zosmf_management_services_catalog }}"/></a></p>
+        <p><a href="{{ site.url_video_zosmf_management_services_catalog }}" target="_blank"><img src="{{ site.img_video_zosmf_management_services_catalog }}" alt="{{ site.title_video_zosmf_management_services_catalog }}"/></a></p>
         <p><a href="{{ site.url_video_zosmf_management_services_catalog }}" target="_blank">{{ site.title_video_zosmf_management_services_catalog }}</a></p>
       </div>
     </div>
@@ -446,19 +446,19 @@ layout: default
     <p>Start your free online learning and get the following z/OSMF badges:</p>
     <div class="div_img">
       <div>
-        <p><a href="{{ site.url_badge_zosmf_experienced }}" target="_blank"><img src="{{ site.img_badge_zosmf_experienced }}"/></a></p>
+        <p><a href="{{ site.url_badge_zosmf_experienced }}" target="_blank"><img src="{{ site.img_badge_zosmf_experienced }}" alt="{{ site.title_badge_zosmf_experienced }}"/></a></p>
         <p><a href="{{ site.url_badge_zosmf_experienced }}" target="_blank">{{ site.title_badge_zosmf_experienced }}</a></p>
       </div>
       <div>
-        <p><a href="{{ site.url_badge_zert_config_nca }}" target="_blank"><img src="{{ site.img_badge_zert_config_nca }}"/></a></p>
+        <p><a href="{{ site.url_badge_zert_config_nca }}" target="_blank"><img src="{{ site.img_badge_zert_config_nca }}" alt="{{ site.title_badge_zert_config_nca }}"/></a></p>
         <p><a href="{{ site.url_badge_zert_config_nca }}" target="_blank">{{ site.title_badge_zert_config_nca }}</a></p>
       </div>
       <div>
-        <p><a href="{{ site.url_badge_tcpip_config_nca }}" target="_blank"><img src="{{ site.img_badge_tcpip_config_nca }}"/></a></p>
+        <p><a href="{{ site.url_badge_tcpip_config_nca }}" target="_blank"><img src="{{ site.img_badge_tcpip_config_nca }}" alt="{{ site.title_badge_tcpip_config_nca }}"/></a></p>
         <p><a href="{{ site.url_badge_tcpip_config_nca }}" target="_blank">{{ site.title_badge_tcpip_config_nca }}</a></p>
       </div>
       <div>
-        <p><a href="{{ site.url_badge_installation_using_zosmf }}" target="_blank"><img src="{{ site.img_badge_installation_using_zosmf }}"/></a></p>
+        <p><a href="{{ site.url_badge_installation_using_zosmf }}" target="_blank"><img src="{{ site.img_badge_installation_using_zosmf }}" alt="{{ site.title_badge_installation_using_zosmf }}"/></a></p>
         <p><a href="{{ site.url_badge_installation_using_zosmf }}" target="_blank">{{ site.title_badge_installation_using_zosmf }}</a></p>
       </div>
     </div>
